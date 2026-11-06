@@ -1,0 +1,25 @@
+{
+ "label_source": "claude-opus-5-5, one reader who also built the filter; not a human label",
+ "rubric": "on topic means the sentence reports an effect of the asked stressor on the asked tissue in the asked organism",
+ "before": {
+  "sample": "60 sentences sampled from answers",
+  "on_topic": 38,
+  "sentences": 60
+ },
+ "after": {
+  "sample": "all sentences in the final answers to the 55 broad questions",
+  "on_topic": 51,
+  "sentences": 62
+ },
+ "caution": "the samples differ and the filter was developed on these questions, so this is a rough estimate",
+ "fresh_questions": {
+  "questions": 14,
+  "unchanged_answers": 10,
+  "new_refusals": 0
+ },
+ "newly_refused": {
+  "questions": 6,
+  "previously_weak_or_off_topic": 6,
+  "lost_a_good_sentence": 0
+ }
+}
