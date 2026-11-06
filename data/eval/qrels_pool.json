@@ -1,0 +1,1284 @@
+[
+ {
+  "qid": "q044",
+  "question": "How does microgravity affect liver in cultured cells?",
+  "pool": [
+   {
+    "paper_id": "0003",
+    "title": "Microgravity and Cellular Biology: Insights into Cellular Responses and Implications for Human Health"
+   },
+   {
+    "paper_id": "0004",
+    "title": "Selective Proliferation of Highly Functional Adipose-Derived Stem Cells in Microgravity Culture with Stirred Microspheres"
+   },
+   {
+    "paper_id": "0025",
+    "title": "Extraterrestrial Gynecology: Could Spaceflight Increase the Risk of Developing Cancer in Female Astronauts? An Updated Review"
+   },
+   {
+    "paper_id": "0057",
+    "title": "Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver"
+   },
+   {
+    "paper_id": "0223",
+    "title": "Effects of angular frequency during clinorotation on mesenchymal stem cell morphology and migration"
+   },
+   {
+    "paper_id": "0356",
+    "title": "Growth and Antifungal Resistance of the Pathogenic Yeast, Candida Albicans, in the Microgravity Environment of the International Space Station: An Aggregate of Multiple Flight Experiences"
+   },
+   {
+    "paper_id": "0373",
+    "title": "Neutrophil-to-Lymphocyte Ratio: A Biomarker to Monitor the Immune Status of Astronauts"
+   },
+   {
+    "paper_id": "0527",
+    "title": "Molecular Mechanism of Microgravity-Induced Intestinal Flora Dysbiosis on the Abnormalities of Liver and Brain Metabolism"
+   },
+   {
+    "paper_id": "0545",
+    "title": "Transcriptomics, NF-κB Pathway, and Their Potential Spaceflight-Related Health Consequences"
+   },
+   {
+    "paper_id": "0546",
+    "title": "Interplay of space radiation and microgravity in DNA damage and DNA damage response"
+   },
+   {
+    "paper_id": "0547",
+    "title": "Synergistic Effects of Weightlessness, Isoproterenol, and Radiation on DNA Damage Response and Cytokine Production in Immune Cells"
+   },
+   {
+    "paper_id": "0572",
+    "title": "Discoveries from human stem cell research in space that are relevant to advancing cellular therapies on Earth"
+   }
+  ]
+ },
+ {
+  "qid": "q009",
+  "question": "How does radiation exposure affect cardiovascular in humans?",
+  "pool": [
+   {
+    "paper_id": "0020",
+    "title": "GeneLab Database Analyses Suggest Long-Term Impact of Space Radiation on the Cardiovascular System by the Activation of FYN Through Reactive Oxygen Species"
+   },
+   {
+    "paper_id": "0022",
+    "title": "NASA GeneLab Platform Utilized for Biological Response to Space Radiation in Animal Models"
+   },
+   {
+    "paper_id": "0029",
+    "title": "Aging and putative frailty biomarkers are altered by spaceflight"
+   },
+   {
+    "paper_id": "0060",
+    "title": "Proteomic and phosphoproteomic characterization of cardiovascular tissues after long term exposure to simulated space radiation"
+   },
+   {
+    "paper_id": "0182",
+    "title": "Ionizing Radiation Stimulates Expression of Pro-Osteoclastogenic Genes in Marrow and Skeletal Tissue"
+   },
+   {
+    "paper_id": "0276",
+    "title": "Effects of low-dose rate γ-irradiation combined with simulated microgravity on markers of oxidative stress, DNA methylation potential, and remodeling in the mouse heart"
+   },
+   {
+    "paper_id": "0385",
+    "title": "Vive la radiorésistance!: converging research in radiobiology and biogerontology to enhance human radioresistance for deep space exploration and colonization"
+   },
+   {
+    "paper_id": "0450",
+    "title": "Acute Exposure to High Dose γ-Radiation Results in Transient Activation of Bone Lining Cells"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   },
+   {
+    "paper_id": "0546",
+    "title": "Interplay of space radiation and microgravity in DNA damage and DNA damage response"
+   },
+   {
+    "paper_id": "0551",
+    "title": "Designing a Novel Monitoring Approach for the Effects of Space Travel on Astronauts’ Health"
+   }
+  ]
+ },
+ {
+  "qid": "q001",
+  "question": "How does microgravity affect eye in humans?",
+  "pool": [
+   {
+    "paper_id": "0100",
+    "title": "Effect of spaceflight on Pseudomonas aeruginosa final cell density is modulated by nutrient and oxygen availability"
+   },
+   {
+    "paper_id": "0126",
+    "title": "Impact of Spaceflight and Artificial Gravity on the Mouse Retina: Biochemical and Proteomic Analysis"
+   },
+   {
+    "paper_id": "0128",
+    "title": "Spaceflight decelerates the epigenetic clock orchestrated with a global alteration in DNA methylome and transcriptome in the mouse retina"
+   },
+   {
+    "paper_id": "0133",
+    "title": "Human Neural Stem Cells Flown into Space Proliferate and Generate Young Neurons"
+   },
+   {
+    "paper_id": "0135",
+    "title": "Space Microgravity Alters Neural Stem Cell Division: Implications for Brain Cancer Research on Earth and in Space"
+   },
+   {
+    "paper_id": "0190",
+    "title": "An extensive allelic series of Drosophila kae1 mutants reveals diverse and tissue-specific requirements for t6A biogenesis"
+   },
+   {
+    "paper_id": "0216",
+    "title": "Lipid Rafts and Plant Gravisensitivity"
+   },
+   {
+    "paper_id": "0385",
+    "title": "Vive la radiorésistance!: converging research in radiobiology and biogerontology to enhance human radioresistance for deep space exploration and colonization"
+   },
+   {
+    "paper_id": "0462",
+    "title": "Effect of Leptin Deficiency on the Skeletal Response to Hindlimb Unloading in Adult Male Mice"
+   },
+   {
+    "paper_id": "0470",
+    "title": "Understanding the Complexities and Changes of the Astronaut Microbiome for Successful Long-Duration Space Missions"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   },
+   {
+    "paper_id": "0571",
+    "title": "Artificial Gravity Attenuates the Transcriptomic Response to Spaceflight in the Optic Nerve and Retina"
+   }
+  ]
+ },
+ {
+  "qid": "q052",
+  "question": "How does microgravity affect bone in cultured cells?",
+  "pool": [
+   {
+    "paper_id": "0002",
+    "title": "Microgravity Induces Pelvic Bone Loss through Osteoclastic Activity, Osteocytic Osteolysis, and Osteoblastic Cell Cycle Inhibition by CDKN1a/p21"
+   },
+   {
+    "paper_id": "0003",
+    "title": "Microgravity and Cellular Biology: Insights into Cellular Responses and Implications for Human Health"
+   },
+   {
+    "paper_id": "0004",
+    "title": "Selective Proliferation of Highly Functional Adipose-Derived Stem Cells in Microgravity Culture with Stirred Microspheres"
+   },
+   {
+    "paper_id": "0206",
+    "title": "Fifteen Days Microgravity Causes Growth in Calvaria of Mice"
+   },
+   {
+    "paper_id": "0224",
+    "title": "The role of FGF-2 and BMP-2 in regulation of gene induction, cell proliferation and mineralization"
+   },
+   {
+    "paper_id": "0226",
+    "title": "To infinity … and beyond! Human spaceflight and life science"
+   },
+   {
+    "paper_id": "0426",
+    "title": "Dietary countermeasure mitigates simulated spaceflight-induced osteopenia in mice"
+   },
+   {
+    "paper_id": "0545",
+    "title": "Transcriptomics, NF-κB Pathway, and Their Potential Spaceflight-Related Health Consequences"
+   },
+   {
+    "paper_id": "0546",
+    "title": "Interplay of space radiation and microgravity in DNA damage and DNA damage response"
+   },
+   {
+    "paper_id": "0565",
+    "title": "37-Day microgravity exposure in 16-Week female C57BL/6J mice is associated with bone loss specific to weight-bearing skeletal sites"
+   }
+  ]
+ },
+ {
+  "qid": "q020",
+  "question": "How does microgravity affect eye in mice?",
+  "pool": [
+   {
+    "paper_id": "0040",
+    "title": "Impact of microgravity and lunar gravity on murine skeletal and immune systems during space travel"
+   },
+   {
+    "paper_id": "0126",
+    "title": "Impact of Spaceflight and Artificial Gravity on the Mouse Retina: Biochemical and Proteomic Analysis"
+   },
+   {
+    "paper_id": "0128",
+    "title": "Spaceflight decelerates the epigenetic clock orchestrated with a global alteration in DNA methylome and transcriptome in the mouse retina"
+   },
+   {
+    "paper_id": "0133",
+    "title": "Human Neural Stem Cells Flown into Space Proliferate and Generate Young Neurons"
+   },
+   {
+    "paper_id": "0190",
+    "title": "An extensive allelic series of Drosophila kae1 mutants reveals diverse and tissue-specific requirements for t6A biogenesis"
+   },
+   {
+    "paper_id": "0202",
+    "title": "Behavioral and multiomics analysis of 3D clinostat simulated microgravity effect in mice focusing on the central nervous system"
+   },
+   {
+    "paper_id": "0216",
+    "title": "Lipid Rafts and Plant Gravisensitivity"
+   },
+   {
+    "paper_id": "0277",
+    "title": "Characterization of mouse ocular response to a 35-day spaceflight mission: Evidence of blood-retinal barrier disruption and ocular adaptations"
+   },
+   {
+    "paper_id": "0279",
+    "title": "Spaceflight influences gene expression, photoreceptor integrity, and oxidative stress-related damage in the murine retina"
+   },
+   {
+    "paper_id": "0527",
+    "title": "Molecular Mechanism of Microgravity-Induced Intestinal Flora Dysbiosis on the Abnormalities of Liver and Brain Metabolism"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   },
+   {
+    "paper_id": "0571",
+    "title": "Artificial Gravity Attenuates the Transcriptomic Response to Spaceflight in the Optic Nerve and Retina"
+   }
+  ]
+ },
+ {
+  "qid": "q018",
+  "question": "How does microgravity affect kidney in cultured cells?",
+  "pool": [
+   {
+    "paper_id": "0003",
+    "title": "Microgravity and Cellular Biology: Insights into Cellular Responses and Implications for Human Health"
+   },
+   {
+    "paper_id": "0004",
+    "title": "Selective Proliferation of Highly Functional Adipose-Derived Stem Cells in Microgravity Culture with Stirred Microspheres"
+   },
+   {
+    "paper_id": "0025",
+    "title": "Extraterrestrial Gynecology: Could Spaceflight Increase the Risk of Developing Cancer in Female Astronauts? An Updated Review"
+   },
+   {
+    "paper_id": "0223",
+    "title": "Effects of angular frequency during clinorotation on mesenchymal stem cell morphology and migration"
+   },
+   {
+    "paper_id": "0252",
+    "title": "Light and gravity signals synergize in modulating plant development"
+   },
+   {
+    "paper_id": "0300",
+    "title": "Cosmic kidney disease: an integrated pan-omic, physiological and morphological study into spaceflight-induced renal dysfunction"
+   },
+   {
+    "paper_id": "0337",
+    "title": "Mechanotransduction in Prokaryotes: A Possible Mechanism of Spaceflight Adaptation"
+   },
+   {
+    "paper_id": "0373",
+    "title": "Neutrophil-to-Lymphocyte Ratio: A Biomarker to Monitor the Immune Status of Astronauts"
+   },
+   {
+    "paper_id": "0546",
+    "title": "Interplay of space radiation and microgravity in DNA damage and DNA damage response"
+   },
+   {
+    "paper_id": "0572",
+    "title": "Discoveries from human stem cell research in space that are relevant to advancing cellular therapies on Earth"
+   }
+  ]
+ },
+ {
+  "qid": "q017",
+  "question": "How does microgravity affect cardiovascular in humans?",
+  "pool": [
+   {
+    "paper_id": "0002",
+    "title": "Microgravity Induces Pelvic Bone Loss through Osteoclastic Activity, Osteocytic Osteolysis, and Osteoblastic Cell Cycle Inhibition by CDKN1a/p21"
+   },
+   {
+    "paper_id": "0003",
+    "title": "Microgravity and Cellular Biology: Insights into Cellular Responses and Implications for Human Health"
+   },
+   {
+    "paper_id": "0033",
+    "title": "Prolonged Exposure to Microgravity Reduces Cardiac Contractility and Initiates Remodeling in Drosophila"
+   },
+   {
+    "paper_id": "0105",
+    "title": "A New Era for Space Life Science: International Standards for Space Omics Processing"
+   },
+   {
+    "paper_id": "0216",
+    "title": "Lipid Rafts and Plant Gravisensitivity"
+   },
+   {
+    "paper_id": "0228",
+    "title": "Effects of Gravitational Mechanical Unloading in Endothelial Cells: Association between Caveolins, Inflammation and Adhesion Molecules"
+   },
+   {
+    "paper_id": "0385",
+    "title": "Vive la radiorésistance!: converging research in radiobiology and biogerontology to enhance human radioresistance for deep space exploration and colonization"
+   },
+   {
+    "paper_id": "0387",
+    "title": "Transcriptomic Effects on the Mouse Heart Following 30 Days on the International Space Station"
+   },
+   {
+    "paper_id": "0427",
+    "title": "Simulated Microgravity Alters Gene Regulation Linked to Immunity and Cardiovascular Disease"
+   },
+   {
+    "paper_id": "0462",
+    "title": "Effect of Leptin Deficiency on the Skeletal Response to Hindlimb Unloading in Adult Male Mice"
+   },
+   {
+    "paper_id": "0470",
+    "title": "Understanding the Complexities and Changes of the Astronaut Microbiome for Successful Long-Duration Space Missions"
+   },
+   {
+    "paper_id": "0545",
+    "title": "Transcriptomics, NF-κB Pathway, and Their Potential Spaceflight-Related Health Consequences"
+   },
+   {
+    "paper_id": "0567",
+    "title": "Immunization induces inflammation in the mouse heart during spaceflight"
+   },
+   {
+    "paper_id": "0569",
+    "title": "Sex-specific cardiovascular adaptations to simulated microgravity in Sprague-Dawley rats"
+   }
+  ]
+ },
+ {
+  "qid": "q011",
+  "question": "How does radiation exposure affect eye in humans?",
+  "pool": [
+   {
+    "paper_id": "0178",
+    "title": "Rad-Bio-App: a discovery environment for biologists to explore spaceflight-related radiation exposures"
+   },
+   {
+    "paper_id": "0182",
+    "title": "Ionizing Radiation Stimulates Expression of Pro-Osteoclastogenic Genes in Marrow and Skeletal Tissue"
+   },
+   {
+    "paper_id": "0190",
+    "title": "An extensive allelic series of Drosophila kae1 mutants reveals diverse and tissue-specific requirements for t6A biogenesis"
+   },
+   {
+    "paper_id": "0278",
+    "title": "Mice Exposed to Combined Chronic Low-Dose Irradiation and Modeled Microgravity Develop Long-Term Neurological Sequelae"
+   },
+   {
+    "paper_id": "0279",
+    "title": "Spaceflight influences gene expression, photoreceptor integrity, and oxidative stress-related damage in the murine retina"
+   },
+   {
+    "paper_id": "0280",
+    "title": "Evaluating Ocular Response in the Retina and Optic Nerve Head after Single and Fractionated High-Energy Protons"
+   },
+   {
+    "paper_id": "0283",
+    "title": "Evidence of Spaceflight-Induced Adverse Effects on Photoreceptors and Retinal Function in the Mouse Eye"
+   },
+   {
+    "paper_id": "0450",
+    "title": "Acute Exposure to High Dose γ-Radiation Results in Transient Activation of Bone Lining Cells"
+   },
+   {
+    "paper_id": "0470",
+    "title": "Understanding the Complexities and Changes of the Astronaut Microbiome for Successful Long-Duration Space Missions"
+   },
+   {
+    "paper_id": "0540",
+    "title": "Knee and Hip Joint Cartilage Damage from Combined Spaceflight Hazards of Low-Dose Radiation Less than 1 Gy and Prolonged Hindlimb Unloading"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   },
+   {
+    "paper_id": "0546",
+    "title": "Interplay of space radiation and microgravity in DNA damage and DNA damage response"
+   }
+  ]
+ },
+ {
+  "qid": "q006",
+  "question": "How does radiation exposure affect immune in cultured cells?",
+  "pool": [
+   {
+    "paper_id": "0181",
+    "title": "Low-Dose, Ionizing Radiation and Age-Related Changes in Skeletal Microarchitecture"
+   },
+   {
+    "paper_id": "0182",
+    "title": "Ionizing Radiation Stimulates Expression of Pro-Osteoclastogenic Genes in Marrow and Skeletal Tissue"
+   },
+   {
+    "paper_id": "0374",
+    "title": "Beyond Low-Earth Orbit: Characterizing Immune and microRNA Differentials following Simulated Deep Spaceflight Conditions in Mice"
+   },
+   {
+    "paper_id": "0382",
+    "title": "Changes in the distribution and function of leukocytes after whole-body iron ion irradiation"
+   },
+   {
+    "paper_id": "0385",
+    "title": "Vive la radiorésistance!: converging research in radiobiology and biogerontology to enhance human radioresistance for deep space exploration and colonization"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   },
+   {
+    "paper_id": "0546",
+    "title": "Interplay of space radiation and microgravity in DNA damage and DNA damage response"
+   },
+   {
+    "paper_id": "0547",
+    "title": "Synergistic Effects of Weightlessness, Isoproterenol, and Radiation on DNA Damage Response and Cytokine Production in Immune Cells"
+   },
+   {
+    "paper_id": "0566",
+    "title": "Effects of Space Flight on Inflammasome Activation in the Brain of Mice"
+   }
+  ]
+ },
+ {
+  "qid": "q047",
+  "question": "How does microgravity affect skin in humans?",
+  "pool": [
+   {
+    "paper_id": "0002",
+    "title": "Microgravity Induces Pelvic Bone Loss through Osteoclastic Activity, Osteocytic Osteolysis, and Osteoblastic Cell Cycle Inhibition by CDKN1a/p21"
+   },
+   {
+    "paper_id": "0003",
+    "title": "Microgravity and Cellular Biology: Insights into Cellular Responses and Implications for Human Health"
+   },
+   {
+    "paper_id": "0033",
+    "title": "Prolonged Exposure to Microgravity Reduces Cardiac Contractility and Initiates Remodeling in Drosophila"
+   },
+   {
+    "paper_id": "0081",
+    "title": "Toward countering muscle and bone loss with spaceflight: GSK3 as a potential target"
+   },
+   {
+    "paper_id": "0100",
+    "title": "Effect of spaceflight on Pseudomonas aeruginosa final cell density is modulated by nutrient and oxygen availability"
+   },
+   {
+    "paper_id": "0127",
+    "title": "Simulated Microgravity Induces Regionally Distinct Neurovascular and Structural Remodeling of Skeletal Muscle and Cutaneous Arteries in the Rat"
+   },
+   {
+    "paper_id": "0206",
+    "title": "Fifteen Days Microgravity Causes Growth in Calvaria of Mice"
+   },
+   {
+    "paper_id": "0216",
+    "title": "Lipid Rafts and Plant Gravisensitivity"
+   },
+   {
+    "paper_id": "0291",
+    "title": "Spatial multi-omics of human skin reveals KRAS and inflammatory responses to spaceflight"
+   },
+   {
+    "paper_id": "0299",
+    "title": "Transcriptomics analysis reveals molecular alterations underpinning spaceflight dermatology"
+   },
+   {
+    "paper_id": "0422",
+    "title": "Transcriptomic Signature of the Simulated Microgravity Response in Caenorhabditis elegans and Comparison to Spaceflight Experiments"
+   },
+   {
+    "paper_id": "0462",
+    "title": "Effect of Leptin Deficiency on the Skeletal Response to Hindlimb Unloading in Adult Male Mice"
+   },
+   {
+    "paper_id": "0470",
+    "title": "Understanding the Complexities and Changes of the Astronaut Microbiome for Successful Long-Duration Space Missions"
+   },
+   {
+    "paper_id": "0527",
+    "title": "Molecular Mechanism of Microgravity-Induced Intestinal Flora Dysbiosis on the Abnormalities of Liver and Brain Metabolism"
+   }
+  ]
+ },
+ {
+  "qid": "q038",
+  "question": "How does radiation exposure affect liver in humans?",
+  "pool": [
+   {
+    "paper_id": "0027",
+    "title": "Chromosomal positioning and epigenetic architecture influence DNA methylation patterns triggered by galactic cosmic radiation"
+   },
+   {
+    "paper_id": "0030",
+    "title": "Space radiation damage rescued by inhibition of key spaceflight associated miRNAs"
+   },
+   {
+    "paper_id": "0057",
+    "title": "Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver"
+   },
+   {
+    "paper_id": "0138",
+    "title": "Metabolomic Profiling of the Secretome from Human Neural Stem Cells Flown into Space"
+   },
+   {
+    "paper_id": "0178",
+    "title": "Rad-Bio-App: a discovery environment for biologists to explore spaceflight-related radiation exposures"
+   },
+   {
+    "paper_id": "0182",
+    "title": "Ionizing Radiation Stimulates Expression of Pro-Osteoclastogenic Genes in Marrow and Skeletal Tissue"
+   },
+   {
+    "paper_id": "0276",
+    "title": "Effects of low-dose rate γ-irradiation combined with simulated microgravity on markers of oxidative stress, DNA methylation potential, and remodeling in the mouse heart"
+   },
+   {
+    "paper_id": "0301",
+    "title": "Spaceflight induces changes in gene expression profiles linked to insulin and estrogen"
+   },
+   {
+    "paper_id": "0450",
+    "title": "Acute Exposure to High Dose γ-Radiation Results in Transient Activation of Bone Lining Cells"
+   },
+   {
+    "paper_id": "0470",
+    "title": "Understanding the Complexities and Changes of the Astronaut Microbiome for Successful Long-Duration Space Missions"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   },
+   {
+    "paper_id": "0546",
+    "title": "Interplay of space radiation and microgravity in DNA damage and DNA damage response"
+   }
+  ]
+ },
+ {
+  "qid": "q005",
+  "question": "How does radiation exposure affect skin in cultured cells?",
+  "pool": [
+   {
+    "paper_id": "0007",
+    "title": "Dose- and Ion-Dependent Effects in the Oxidative Stress Response to Space-Like Radiation Exposure in the Skeletal System"
+   },
+   {
+    "paper_id": "0181",
+    "title": "Low-Dose, Ionizing Radiation and Age-Related Changes in Skeletal Microarchitecture"
+   },
+   {
+    "paper_id": "0182",
+    "title": "Ionizing Radiation Stimulates Expression of Pro-Osteoclastogenic Genes in Marrow and Skeletal Tissue"
+   },
+   {
+    "paper_id": "0197",
+    "title": "Simultaneous Exposure of Cultured Human Lymphoblastic Cells to Simulated Microgravity and Radiation Increases Chromosome Aberrations"
+   },
+   {
+    "paper_id": "0271",
+    "title": "Functional Consequences of Radiation-Induced Oxidative Stress in Cultured Neural Stem Cells and the Brain Exposed to Charged Particle Irradiation"
+   },
+   {
+    "paper_id": "0385",
+    "title": "Vive la radiorésistance!: converging research in radiobiology and biogerontology to enhance human radioresistance for deep space exploration and colonization"
+   },
+   {
+    "paper_id": "0395",
+    "title": "Simulated microgravity impairs human NK cell cytotoxic activity against space radiation-relevant leukemic cells"
+   },
+   {
+    "paper_id": "0444",
+    "title": "Effect of Simulated Cosmic Radiation on Cytomegalovirus Reactivation and Lytic Replication"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   },
+   {
+    "paper_id": "0546",
+    "title": "Interplay of space radiation and microgravity in DNA damage and DNA damage response"
+   },
+   {
+    "paper_id": "0547",
+    "title": "Synergistic Effects of Weightlessness, Isoproterenol, and Radiation on DNA Damage Response and Cytokine Production in Immune Cells"
+   }
+  ]
+ },
+ {
+  "qid": "q057",
+  "question": "How does radiation exposure affect liver in mice?",
+  "pool": [
+   {
+    "paper_id": "0020",
+    "title": "GeneLab Database Analyses Suggest Long-Term Impact of Space Radiation on the Cardiovascular System by the Activation of FYN Through Reactive Oxygen Species"
+   },
+   {
+    "paper_id": "0022",
+    "title": "NASA GeneLab Platform Utilized for Biological Response to Space Radiation in Animal Models"
+   },
+   {
+    "paper_id": "0027",
+    "title": "Chromosomal positioning and epigenetic architecture influence DNA methylation patterns triggered by galactic cosmic radiation"
+   },
+   {
+    "paper_id": "0040",
+    "title": "Impact of microgravity and lunar gravity on murine skeletal and immune systems during space travel"
+   },
+   {
+    "paper_id": "0057",
+    "title": "Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver"
+   },
+   {
+    "paper_id": "0123",
+    "title": "Spaceflight on the Bion-M1 biosatellite alters cerebral artery vasomotor and mechanical properties in mice"
+   },
+   {
+    "paper_id": "0138",
+    "title": "Metabolomic Profiling of the Secretome from Human Neural Stem Cells Flown into Space"
+   },
+   {
+    "paper_id": "0182",
+    "title": "Ionizing Radiation Stimulates Expression of Pro-Osteoclastogenic Genes in Marrow and Skeletal Tissue"
+   },
+   {
+    "paper_id": "0276",
+    "title": "Effects of low-dose rate γ-irradiation combined with simulated microgravity on markers of oxidative stress, DNA methylation potential, and remodeling in the mouse heart"
+   },
+   {
+    "paper_id": "0278",
+    "title": "Mice Exposed to Combined Chronic Low-Dose Irradiation and Modeled Microgravity Develop Long-Term Neurological Sequelae"
+   },
+   {
+    "paper_id": "0382",
+    "title": "Changes in the distribution and function of leukocytes after whole-body iron ion irradiation"
+   },
+   {
+    "paper_id": "0385",
+    "title": "Vive la radiorésistance!: converging research in radiobiology and biogerontology to enhance human radioresistance for deep space exploration and colonization"
+   },
+   {
+    "paper_id": "0450",
+    "title": "Acute Exposure to High Dose γ-Radiation Results in Transient Activation of Bone Lining Cells"
+   },
+   {
+    "paper_id": "0540",
+    "title": "Knee and Hip Joint Cartilage Damage from Combined Spaceflight Hazards of Low-Dose Radiation Less than 1 Gy and Prolonged Hindlimb Unloading"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   }
+  ]
+ },
+ {
+  "qid": "q015",
+  "question": "How does radiation exposure affect muscle in mice?",
+  "pool": [
+   {
+    "paper_id": "0040",
+    "title": "Impact of microgravity and lunar gravity on murine skeletal and immune systems during space travel"
+   },
+   {
+    "paper_id": "0123",
+    "title": "Spaceflight on the Bion-M1 biosatellite alters cerebral artery vasomotor and mechanical properties in mice"
+   },
+   {
+    "paper_id": "0182",
+    "title": "Ionizing Radiation Stimulates Expression of Pro-Osteoclastogenic Genes in Marrow and Skeletal Tissue"
+   },
+   {
+    "paper_id": "0238",
+    "title": "Detection of Target Genes for Drug Repurposing to Treat Skeletal Muscle Atrophy in Mice Flown in Spaceflight"
+   },
+   {
+    "paper_id": "0276",
+    "title": "Effects of low-dose rate γ-irradiation combined with simulated microgravity on markers of oxidative stress, DNA methylation potential, and remodeling in the mouse heart"
+   },
+   {
+    "paper_id": "0322",
+    "title": "Impacts of radiation exposure, hindlimb unloading, and recovery on murine skeletal muscle cell telomere length"
+   },
+   {
+    "paper_id": "0426",
+    "title": "Dietary countermeasure mitigates simulated spaceflight-induced osteopenia in mice"
+   },
+   {
+    "paper_id": "0540",
+    "title": "Knee and Hip Joint Cartilage Damage from Combined Spaceflight Hazards of Low-Dose Radiation Less than 1 Gy and Prolonged Hindlimb Unloading"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   },
+   {
+    "paper_id": "0546",
+    "title": "Interplay of space radiation and microgravity in DNA damage and DNA damage response"
+   }
+  ]
+ },
+ {
+  "qid": "q002",
+  "question": "How does microgravity affect plant tissue in plants?",
+  "pool": [
+   {
+    "paper_id": "0069",
+    "title": "Unfolded protein response in plants: one master, many questions"
+   },
+   {
+    "paper_id": "0152",
+    "title": "Host-Microbe Interactions in Microgravity: Assessment and Implications"
+   },
+   {
+    "paper_id": "0180",
+    "title": "Meta-analysis of the space flight and microgravity response of the Arabidopsis plant transcriptome"
+   },
+   {
+    "paper_id": "0216",
+    "title": "Lipid Rafts and Plant Gravisensitivity"
+   },
+   {
+    "paper_id": "0251",
+    "title": "Recent transcriptomic studies to elucidate the plant adaptive response to spaceflight and to simulated space environments"
+   },
+   {
+    "paper_id": "0254",
+    "title": "RNAseq Analysis of the Response of Arabidopsis thaliana to Fractional Gravity Under Blue-Light Stimulation During Spaceflight"
+   },
+   {
+    "paper_id": "0255",
+    "title": "Comparison of Microgravity Analogs to Spaceflight in Studies of Plant Growth and Development"
+   },
+   {
+    "paper_id": "0258",
+    "title": "Red Light Enhances Plant Adaptation to Spaceflight and Mars g-Levels"
+   },
+   {
+    "paper_id": "0405",
+    "title": "Microgravity enhances the phenotype of Arabidopsis zigzag-1 and reduces the Wortmannin-induced vacuole fusion in root cells"
+   },
+   {
+    "paper_id": "0549",
+    "title": "Spaceflight induces novel regulatory responses in Arabidopsis seedling as revealed by combined proteomic and transcriptomic analyses"
+   },
+   {
+    "paper_id": "0550",
+    "title": "Microbial applications for sustainable space exploration beyond low Earth orbit"
+   }
+  ]
+ },
+ {
+  "qid": "q028",
+  "question": "How does microgravity affect brain in cultured cells?",
+  "pool": [
+   {
+    "paper_id": "0003",
+    "title": "Microgravity and Cellular Biology: Insights into Cellular Responses and Implications for Human Health"
+   },
+   {
+    "paper_id": "0004",
+    "title": "Selective Proliferation of Highly Functional Adipose-Derived Stem Cells in Microgravity Culture with Stirred Microspheres"
+   },
+   {
+    "paper_id": "0025",
+    "title": "Extraterrestrial Gynecology: Could Spaceflight Increase the Risk of Developing Cancer in Female Astronauts? An Updated Review"
+   },
+   {
+    "paper_id": "0123",
+    "title": "Spaceflight on the Bion-M1 biosatellite alters cerebral artery vasomotor and mechanical properties in mice"
+   },
+   {
+    "paper_id": "0132",
+    "title": "SIMULATED MICROGRAVITY ENHANCES OLIGODENDROCYTE MITOCHONDRIAL FUNCTION AND LIPID METABOLISM"
+   },
+   {
+    "paper_id": "0133",
+    "title": "Human Neural Stem Cells Flown into Space Proliferate and Generate Young Neurons"
+   },
+   {
+    "paper_id": "0137",
+    "title": "Metabolomics Profile of the Secretome of Space-Flown Oligodendrocytes"
+   },
+   {
+    "paper_id": "0281",
+    "title": "Characterization of gene expression profiles in the mouse brain after 35 days of spaceflight mission"
+   },
+   {
+    "paper_id": "0527",
+    "title": "Molecular Mechanism of Microgravity-Induced Intestinal Flora Dysbiosis on the Abnormalities of Liver and Brain Metabolism"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   },
+   {
+    "paper_id": "0546",
+    "title": "Interplay of space radiation and microgravity in DNA damage and DNA damage response"
+   },
+   {
+    "paper_id": "0572",
+    "title": "Discoveries from human stem cell research in space that are relevant to advancing cellular therapies on Earth"
+   }
+  ]
+ },
+ {
+  "qid": "q026",
+  "question": "How does microgravity affect skin in cultured cells?",
+  "pool": [
+   {
+    "paper_id": "0003",
+    "title": "Microgravity and Cellular Biology: Insights into Cellular Responses and Implications for Human Health"
+   },
+   {
+    "paper_id": "0004",
+    "title": "Selective Proliferation of Highly Functional Adipose-Derived Stem Cells in Microgravity Culture with Stirred Microspheres"
+   },
+   {
+    "paper_id": "0025",
+    "title": "Extraterrestrial Gynecology: Could Spaceflight Increase the Risk of Developing Cancer in Female Astronauts? An Updated Review"
+   },
+   {
+    "paper_id": "0112",
+    "title": "Dichotomous effects on lymphatic transport with loss of caveolae in mice"
+   },
+   {
+    "paper_id": "0132",
+    "title": "SIMULATED MICROGRAVITY ENHANCES OLIGODENDROCYTE MITOCHONDRIAL FUNCTION AND LIPID METABOLISM"
+   },
+   {
+    "paper_id": "0223",
+    "title": "Effects of angular frequency during clinorotation on mesenchymal stem cell morphology and migration"
+   },
+   {
+    "paper_id": "0299",
+    "title": "Transcriptomics analysis reveals molecular alterations underpinning spaceflight dermatology"
+   },
+   {
+    "paper_id": "0312",
+    "title": "Plasma membrane disruption (PMD) formation and repair in mechanosensitive tissues"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   },
+   {
+    "paper_id": "0545",
+    "title": "Transcriptomics, NF-κB Pathway, and Their Potential Spaceflight-Related Health Consequences"
+   },
+   {
+    "paper_id": "0546",
+    "title": "Interplay of space radiation and microgravity in DNA damage and DNA damage response"
+   },
+   {
+    "paper_id": "0572",
+    "title": "Discoveries from human stem cell research in space that are relevant to advancing cellular therapies on Earth"
+   }
+  ]
+ },
+ {
+  "qid": "q025",
+  "question": "How does radiation exposure affect brain in mice?",
+  "pool": [
+   {
+    "paper_id": "0123",
+    "title": "Spaceflight on the Bion-M1 biosatellite alters cerebral artery vasomotor and mechanical properties in mice"
+   },
+   {
+    "paper_id": "0138",
+    "title": "Metabolomic Profiling of the Secretome from Human Neural Stem Cells Flown into Space"
+   },
+   {
+    "paper_id": "0182",
+    "title": "Ionizing Radiation Stimulates Expression of Pro-Osteoclastogenic Genes in Marrow and Skeletal Tissue"
+   },
+   {
+    "paper_id": "0271",
+    "title": "Functional Consequences of Radiation-Induced Oxidative Stress in Cultured Neural Stem Cells and the Brain Exposed to Charged Particle Irradiation"
+   },
+   {
+    "paper_id": "0275",
+    "title": "The effect of spaceflight on mouse olfactory bulb volume, neurogenesis, and cell death indicates the protective effect of novel environment"
+   },
+   {
+    "paper_id": "0276",
+    "title": "Effects of low-dose rate γ-irradiation combined with simulated microgravity on markers of oxidative stress, DNA methylation potential, and remodeling in the mouse heart"
+   },
+   {
+    "paper_id": "0278",
+    "title": "Mice Exposed to Combined Chronic Low-Dose Irradiation and Modeled Microgravity Develop Long-Term Neurological Sequelae"
+   },
+   {
+    "paper_id": "0388",
+    "title": "Spaceflight-Induced Gene Expression Profiles in the Mouse Brain Are Attenuated by Treatment with the Antioxidant BuOE"
+   },
+   {
+    "paper_id": "0413",
+    "title": "Mitochondria-Targeted Human Catalase in the Mouse Longevity MCAT Model Mitigates Head-Tilt Bedrest-Induced Neuro-Inflammation in the Hippocampus"
+   },
+   {
+    "paper_id": "0540",
+    "title": "Knee and Hip Joint Cartilage Damage from Combined Spaceflight Hazards of Low-Dose Radiation Less than 1 Gy and Prolonged Hindlimb Unloading"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   }
+  ]
+ },
+ {
+  "qid": "q016",
+  "question": "How does radiation exposure affect cardiovascular in mice?",
+  "pool": [
+   {
+    "paper_id": "0006",
+    "title": "Spaceflight Modulates the Expression of Key Oxidative Stress and Cell Cycle Related Genes in Heart"
+   },
+   {
+    "paper_id": "0020",
+    "title": "GeneLab Database Analyses Suggest Long-Term Impact of Space Radiation on the Cardiovascular System by the Activation of FYN Through Reactive Oxygen Species"
+   },
+   {
+    "paper_id": "0029",
+    "title": "Aging and putative frailty biomarkers are altered by spaceflight"
+   },
+   {
+    "paper_id": "0060",
+    "title": "Proteomic and phosphoproteomic characterization of cardiovascular tissues after long term exposure to simulated space radiation"
+   },
+   {
+    "paper_id": "0182",
+    "title": "Ionizing Radiation Stimulates Expression of Pro-Osteoclastogenic Genes in Marrow and Skeletal Tissue"
+   },
+   {
+    "paper_id": "0276",
+    "title": "Effects of low-dose rate γ-irradiation combined with simulated microgravity on markers of oxidative stress, DNA methylation potential, and remodeling in the mouse heart"
+   },
+   {
+    "paper_id": "0450",
+    "title": "Acute Exposure to High Dose γ-Radiation Results in Transient Activation of Bone Lining Cells"
+   },
+   {
+    "paper_id": "0540",
+    "title": "Knee and Hip Joint Cartilage Damage from Combined Spaceflight Hazards of Low-Dose Radiation Less than 1 Gy and Prolonged Hindlimb Unloading"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   }
+  ]
+ },
+ {
+  "qid": "q014",
+  "question": "How does radiation exposure affect bone in mice?",
+  "pool": [
+   {
+    "paper_id": "0007",
+    "title": "Dose- and Ion-Dependent Effects in the Oxidative Stress Response to Space-Like Radiation Exposure in the Skeletal System"
+   },
+   {
+    "paper_id": "0181",
+    "title": "Low-Dose, Ionizing Radiation and Age-Related Changes in Skeletal Microarchitecture"
+   },
+   {
+    "paper_id": "0182",
+    "title": "Ionizing Radiation Stimulates Expression of Pro-Osteoclastogenic Genes in Marrow and Skeletal Tissue"
+   },
+   {
+    "paper_id": "0425",
+    "title": "Dried plum diet protects from bone loss caused by ionizing radiation"
+   },
+   {
+    "paper_id": "0426",
+    "title": "Dietary countermeasure mitigates simulated spaceflight-induced osteopenia in mice"
+   },
+   {
+    "paper_id": "0450",
+    "title": "Acute Exposure to High Dose γ-Radiation Results in Transient Activation of Bone Lining Cells"
+   },
+   {
+    "paper_id": "0461",
+    "title": "Maintenance of Near Normal Bone Mass and Architecture in Lethally Irradiated Female Mice following Adoptive Transfer with as few as 750 Purified Hematopoietic Stem Cells"
+   },
+   {
+    "paper_id": "0539",
+    "title": "Cortical Thinning and Structural Bone Changes in Non-human Primates Following Single Fraction Whole Chest Radiation"
+   },
+   {
+    "paper_id": "0540",
+    "title": "Knee and Hip Joint Cartilage Damage from Combined Spaceflight Hazards of Low-Dose Radiation Less than 1 Gy and Prolonged Hindlimb Unloading"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   }
+  ]
+ },
+ {
+  "qid": "q050",
+  "question": "How does radiation exposure affect kidney in humans?",
+  "pool": [
+   {
+    "paper_id": "0030",
+    "title": "Space radiation damage rescued by inhibition of key spaceflight associated miRNAs"
+   },
+   {
+    "paper_id": "0178",
+    "title": "Rad-Bio-App: a discovery environment for biologists to explore spaceflight-related radiation exposures"
+   },
+   {
+    "paper_id": "0182",
+    "title": "Ionizing Radiation Stimulates Expression of Pro-Osteoclastogenic Genes in Marrow and Skeletal Tissue"
+   },
+   {
+    "paper_id": "0276",
+    "title": "Effects of low-dose rate γ-irradiation combined with simulated microgravity on markers of oxidative stress, DNA methylation potential, and remodeling in the mouse heart"
+   },
+   {
+    "paper_id": "0300",
+    "title": "Cosmic kidney disease: an integrated pan-omic, physiological and morphological study into spaceflight-induced renal dysfunction"
+   },
+   {
+    "paper_id": "0322",
+    "title": "Impacts of radiation exposure, hindlimb unloading, and recovery on murine skeletal muscle cell telomere length"
+   },
+   {
+    "paper_id": "0450",
+    "title": "Acute Exposure to High Dose γ-Radiation Results in Transient Activation of Bone Lining Cells"
+   },
+   {
+    "paper_id": "0470",
+    "title": "Understanding the Complexities and Changes of the Astronaut Microbiome for Successful Long-Duration Space Missions"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   },
+   {
+    "paper_id": "0546",
+    "title": "Interplay of space radiation and microgravity in DNA damage and DNA damage response"
+   }
+  ]
+ },
+ {
+  "qid": "q013",
+  "question": "How does microgravity affect kidney in humans?",
+  "pool": [
+   {
+    "paper_id": "0002",
+    "title": "Microgravity Induces Pelvic Bone Loss through Osteoclastic Activity, Osteocytic Osteolysis, and Osteoblastic Cell Cycle Inhibition by CDKN1a/p21"
+   },
+   {
+    "paper_id": "0003",
+    "title": "Microgravity and Cellular Biology: Insights into Cellular Responses and Implications for Human Health"
+   },
+   {
+    "paper_id": "0033",
+    "title": "Prolonged Exposure to Microgravity Reduces Cardiac Contractility and Initiates Remodeling in Drosophila"
+   },
+   {
+    "paper_id": "0206",
+    "title": "Fifteen Days Microgravity Causes Growth in Calvaria of Mice"
+   },
+   {
+    "paper_id": "0216",
+    "title": "Lipid Rafts and Plant Gravisensitivity"
+   },
+   {
+    "paper_id": "0238",
+    "title": "Detection of Target Genes for Drug Repurposing to Treat Skeletal Muscle Atrophy in Mice Flown in Spaceflight"
+   },
+   {
+    "paper_id": "0300",
+    "title": "Cosmic kidney disease: an integrated pan-omic, physiological and morphological study into spaceflight-induced renal dysfunction"
+   },
+   {
+    "paper_id": "0462",
+    "title": "Effect of Leptin Deficiency on the Skeletal Response to Hindlimb Unloading in Adult Male Mice"
+   },
+   {
+    "paper_id": "0470",
+    "title": "Understanding the Complexities and Changes of the Astronaut Microbiome for Successful Long-Duration Space Missions"
+   },
+   {
+    "paper_id": "0527",
+    "title": "Molecular Mechanism of Microgravity-Induced Intestinal Flora Dysbiosis on the Abnormalities of Liver and Brain Metabolism"
+   }
+  ]
+ },
+ {
+  "qid": "q040",
+  "question": "How does radiation exposure affect skin in humans?",
+  "pool": [
+   {
+    "paper_id": "0025",
+    "title": "Extraterrestrial Gynecology: Could Spaceflight Increase the Risk of Developing Cancer in Female Astronauts? An Updated Review"
+   },
+   {
+    "paper_id": "0030",
+    "title": "Space radiation damage rescued by inhibition of key spaceflight associated miRNAs"
+   },
+   {
+    "paper_id": "0178",
+    "title": "Rad-Bio-App: a discovery environment for biologists to explore spaceflight-related radiation exposures"
+   },
+   {
+    "paper_id": "0182",
+    "title": "Ionizing Radiation Stimulates Expression of Pro-Osteoclastogenic Genes in Marrow and Skeletal Tissue"
+   },
+   {
+    "paper_id": "0382",
+    "title": "Changes in the distribution and function of leukocytes after whole-body iron ion irradiation"
+   },
+   {
+    "paper_id": "0385",
+    "title": "Vive la radiorésistance!: converging research in radiobiology and biogerontology to enhance human radioresistance for deep space exploration and colonization"
+   },
+   {
+    "paper_id": "0450",
+    "title": "Acute Exposure to High Dose γ-Radiation Results in Transient Activation of Bone Lining Cells"
+   },
+   {
+    "paper_id": "0470",
+    "title": "Understanding the Complexities and Changes of the Astronaut Microbiome for Successful Long-Duration Space Missions"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   },
+   {
+    "paper_id": "0546",
+    "title": "Interplay of space radiation and microgravity in DNA damage and DNA damage response"
+   }
+  ]
+ },
+ {
+  "qid": "q003",
+  "question": "How does radiation exposure affect immune in humans?",
+  "pool": [
+   {
+    "paper_id": "0018",
+    "title": "Toll Mediated Infection Response Is Altered by Gravity and Spaceflight in Drosophila"
+   },
+   {
+    "paper_id": "0178",
+    "title": "Rad-Bio-App: a discovery environment for biologists to explore spaceflight-related radiation exposures"
+   },
+   {
+    "paper_id": "0182",
+    "title": "Ionizing Radiation Stimulates Expression of Pro-Osteoclastogenic Genes in Marrow and Skeletal Tissue"
+   },
+   {
+    "paper_id": "0288",
+    "title": "Genome and clonal hematopoiesis stability contrasts with immune, cfDNA, mitochondrial, and telomere length changes during short duration spaceflight"
+   },
+   {
+    "paper_id": "0382",
+    "title": "Changes in the distribution and function of leukocytes after whole-body iron ion irradiation"
+   },
+   {
+    "paper_id": "0385",
+    "title": "Vive la radiorésistance!: converging research in radiobiology and biogerontology to enhance human radioresistance for deep space exploration and colonization"
+   },
+   {
+    "paper_id": "0418",
+    "title": "Approaching Gravity as a Continuum Using the Rat Partial Weight-Bearing Model"
+   },
+   {
+    "paper_id": "0450",
+    "title": "Acute Exposure to High Dose γ-Radiation Results in Transient Activation of Bone Lining Cells"
+   },
+   {
+    "paper_id": "0470",
+    "title": "Understanding the Complexities and Changes of the Astronaut Microbiome for Successful Long-Duration Space Missions"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   },
+   {
+    "paper_id": "0547",
+    "title": "Synergistic Effects of Weightlessness, Isoproterenol, and Radiation on DNA Damage Response and Cytokine Production in Immune Cells"
+   },
+   {
+    "paper_id": "0566",
+    "title": "Effects of Space Flight on Inflammasome Activation in the Brain of Mice"
+   }
+  ]
+ },
+ {
+  "qid": "q000",
+  "question": "How does radiation exposure affect muscle in humans?",
+  "pool": [
+   {
+    "paper_id": "0033",
+    "title": "Prolonged Exposure to Microgravity Reduces Cardiac Contractility and Initiates Remodeling in Drosophila"
+   },
+   {
+    "paper_id": "0178",
+    "title": "Rad-Bio-App: a discovery environment for biologists to explore spaceflight-related radiation exposures"
+   },
+   {
+    "paper_id": "0182",
+    "title": "Ionizing Radiation Stimulates Expression of Pro-Osteoclastogenic Genes in Marrow and Skeletal Tissue"
+   },
+   {
+    "paper_id": "0238",
+    "title": "Detection of Target Genes for Drug Repurposing to Treat Skeletal Muscle Atrophy in Mice Flown in Spaceflight"
+   },
+   {
+    "paper_id": "0262",
+    "title": "Age-related alterations in the sarcolemmal environment are attenuated by lifelong caloric restriction and voluntary exercise"
+   },
+   {
+    "paper_id": "0322",
+    "title": "Impacts of radiation exposure, hindlimb unloading, and recovery on murine skeletal muscle cell telomere length"
+   },
+   {
+    "paper_id": "0418",
+    "title": "Approaching Gravity as a Continuum Using the Rat Partial Weight-Bearing Model"
+   },
+   {
+    "paper_id": "0450",
+    "title": "Acute Exposure to High Dose γ-Radiation Results in Transient Activation of Bone Lining Cells"
+   },
+   {
+    "paper_id": "0470",
+    "title": "Understanding the Complexities and Changes of the Astronaut Microbiome for Successful Long-Duration Space Missions"
+   },
+   {
+    "paper_id": "0540",
+    "title": "Knee and Hip Joint Cartilage Damage from Combined Spaceflight Hazards of Low-Dose Radiation Less than 1 Gy and Prolonged Hindlimb Unloading"
+   },
+   {
+    "paper_id": "0541",
+    "title": "THE INDIVIDUAL AND COMBINED EFFECTS OF SPACEFLIGHT RADIATION AND MICROGRAVITY ON BIOLOGIC SYSTEMS AND FUNCTIONAL OUTCOMES"
+   },
+   {
+    "paper_id": "0546",
+    "title": "Interplay of space radiation and microgravity in DNA damage and DNA damage response"
+   }
+  ]
+ }
+]
