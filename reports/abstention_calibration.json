@@ -1,0 +1,224 @@
+{
+ "rerank": {
+  "dev_auc": 0.9866666666666667,
+  "best_threshold": 4.2017011642456055,
+  "dev_balanced_accuracy": 0.9666666666666667
+ },
+ "dense": {
+  "dev_auc": 0.9866666666666667,
+  "best_threshold": 0.6148135662078857,
+  "dev_balanced_accuracy": 0.9333333333333333
+ },
+ "scores": [
+  {
+   "question": "How does loss of caveolae affect lymphatic transport in mice?",
+   "answerable": true,
+   "split": "dev",
+   "rerank": 6.884049415588379,
+   "dense": 0.7278844118118286
+  },
+  {
+   "question": "How does hypergravity affect lactation in rat dams?",
+   "answerable": true,
+   "split": "dev",
+   "rerank": 5.159718990325928,
+   "dense": 0.6827288866043091
+  },
+  {
+   "question": "How can the pore size of the MscL channel be modulated?",
+   "answerable": true,
+   "split": "dev",
+   "rerank": 7.00012731552124,
+   "dense": 0.6148135662078857
+  },
+  {
+   "question": "What does NASA GeneLab provide for exploring space omics data?",
+   "answerable": true,
+   "split": "dev",
+   "rerank": 8.326749801635742,
+   "dense": 0.8116182088851929
+  },
+  {
+   "question": "How does spaceflight affect neuronal morphology?",
+   "answerable": true,
+   "split": "dev",
+   "rerank": 7.923105239868164,
+   "dense": 0.6429046392440796
+  },
+  {
+   "question": "What does spaceflight do to cancellous bone in the proximal femur of growing rats?",
+   "answerable": true,
+   "split": "dev",
+   "rerank": 7.486328125,
+   "dense": 0.8014338612556458
+  },
+  {
+   "question": "How does radiation-induced oxidative stress affect cultured neural stem cells?",
+   "answerable": true,
+   "split": "dev",
+   "rerank": 6.433862686157227,
+   "dense": 0.7866947650909424
+  },
+  {
+   "question": "What neuronal effects of spaceflight did spatially resolved multiomics reveal in mice?",
+   "answerable": true,
+   "split": "dev",
+   "rerank": 6.854946136474609,
+   "dense": 0.7653436660766602
+  },
+  {
+   "question": "How does the astronaut microbiome change during long-term space missions?",
+   "answerable": true,
+   "split": "dev",
+   "rerank": 8.365488052368164,
+   "dense": 0.810890793800354
+  },
+  {
+   "question": "Which genes matter for resistance to HZE-induced mutagenesis in Arabidopsis?",
+   "answerable": true,
+   "split": "dev",
+   "rerank": 4.2017011642456055,
+   "dense": 0.6588071584701538
+  },
+  {
+   "question": "What does RNAseq reveal about gene expression in cortical bone after disuse?",
+   "answerable": true,
+   "split": "dev",
+   "rerank": 6.619854927062988,
+   "dense": 0.6771942377090454
+  },
+  {
+   "question": "What root phototropic response appears in Arabidopsis under reduced gravity?",
+   "answerable": true,
+   "split": "dev",
+   "rerank": 7.721166133880615,
+   "dense": 0.8570003509521484
+  },
+  {
+   "question": "Is thermogenesis increased in mice housed aboard the International Space Station?",
+   "answerable": true,
+   "split": "dev",
+   "rerank": 7.2603678703308105,
+   "dense": 0.7824480533599854
+  },
+  {
+   "question": "What metabolic changes occur in space-flown oligodendrocyte progenitors?",
+   "answerable": true,
+   "split": "dev",
+   "rerank": 3.203932046890259,
+   "dense": 0.6596848964691162
+  },
+  {
+   "question": "How do muscle impairments progress during partial weight-bearing in rats?",
+   "answerable": true,
+   "split": "dev",
+   "rerank": 4.25115966796875,
+   "dense": 0.6353451013565063
+  },
+  {
+   "question": "Does spaceflight impair foraging behaviour in honeybees?",
+   "answerable": false,
+   "split": "dev",
+   "rerank": -0.8189969062805176,
+   "dense": 0.44401708245277405
+  },
+  {
+   "question": "Do orchids flower normally on the International Space Station?",
+   "answerable": false,
+   "split": "dev",
+   "rerank": -0.8047115206718445,
+   "dense": 0.5579010248184204
+  },
+  {
+   "question": "Does planaria regeneration change after spaceflight?",
+   "answerable": false,
+   "split": "dev",
+   "rerank": 2.836426258087158,
+   "dense": 0.49281907081604004
+  },
+  {
+   "question": "How does microgravity affect vocal cord function in astronauts?",
+   "answerable": false,
+   "split": "dev",
+   "rerank": 2.870967388153076,
+   "dense": 0.534903883934021
+  },
+  {
+   "question": "Why do astronauts get more hiccups in microgravity?",
+   "answerable": false,
+   "split": "dev",
+   "rerank": 3.874419689178467,
+   "dense": 0.5271995067596436
+  },
+  {
+   "question": "Does spaceflight increase dandruff in astronauts?",
+   "answerable": false,
+   "split": "dev",
+   "rerank": 3.960930585861206,
+   "dense": 0.45010995864868164
+  },
+  {
+   "question": "How does hindlimb unloading compare with natural inactivity in sloths?",
+   "answerable": false,
+   "split": "dev",
+   "rerank": 1.88382089138031,
+   "dense": 0.43746548891067505
+  },
+  {
+   "question": "How does radiation exposure affect koala gut bacteria?",
+   "answerable": false,
+   "split": "dev",
+   "rerank": 1.7666362524032593,
+   "dense": 0.6388691663742065
+  },
+  {
+   "question": "How does microgravity affect swimming orientation in goldfish?",
+   "answerable": false,
+   "split": "dev",
+   "rerank": -1.7647085189819336,
+   "dense": 0.5091784596443176
+  },
+  {
+   "question": "How does spaceflight affect moulting in lobsters?",
+   "answerable": false,
+   "split": "dev",
+   "rerank": -2.384665012359619,
+   "dense": 0.3509382903575897
+  },
+  {
+   "question": "How does microgravity affect flight control in dragonflies?",
+   "answerable": false,
+   "split": "dev",
+   "rerank": 1.954025149345398,
+   "dense": 0.5926773548126221
+  },
+  {
+   "question": "Does microgravity change avocado seed germination?",
+   "answerable": false,
+   "split": "dev",
+   "rerank": 3.714418411254883,
+   "dense": 0.6353128552436829
+  },
+  {
+   "question": "Does microgravity change barnacle settlement?",
+   "answerable": false,
+   "split": "dev",
+   "rerank": -0.19584709405899048,
+   "dense": 0.507783055305481
+  },
+  {
+   "question": "How does radiation exposure affect walrus blubber?",
+   "answerable": false,
+   "split": "dev",
+   "rerank": -0.06334211677312851,
+   "dense": 0.4438585638999939
+  },
+  {
+   "question": "How does microgravity affect tusk growth in narwhals?",
+   "answerable": false,
+   "split": "dev",
+   "rerank": -0.421747088432312,
+   "dense": 0.49268850684165955
+  }
+ ]
+}

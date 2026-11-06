@@ -1,0 +1,27 @@
+[
+ {
+  "set": "off-topic",
+  "questions": 10,
+  "correct": 1.0
+ },
+ {
+  "set": "dev: unanswerable (should refuse)",
+  "questions": 15,
+  "correct": 1.0
+ },
+ {
+  "set": "dev: answerable (should answer)",
+  "questions": 15,
+  "correct": 0.9333333333333333
+ },
+ {
+  "set": "test: unanswerable (should refuse)",
+  "questions": 15,
+  "correct": 1.0
+ },
+ {
+  "set": "test: answerable (should answer)",
+  "questions": 15,
+  "correct": 0.9333333333333333
+ }
+]
