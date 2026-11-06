@@ -1,0 +1,15 @@
+.git
+.github
+.superpowers
+**/__pycache__
+.pytest_cache
+frontend/node_modules
+frontend/dist
+data/raw_html
+data/eval
+data/processed/chunk_emb.npy
+data/processed/w2v.model
+docs
+notebook
+tests
+models
