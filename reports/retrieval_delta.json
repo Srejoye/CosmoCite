@@ -1,0 +1,14 @@
+{
+ "metric": "ndcg@5",
+ "a": "dense",
+ "b": "rerank",
+ "n": 10,
+ "mean_delta": 0.2624751632007171,
+ "ci95": [
+  0.08225414726161068,
+  0.45630395519437666
+ ],
+ "label_sources": {
+  "claude-opus-5-5, blind to retrieval mode, from titles and abstracts": 10
+ }
+}
