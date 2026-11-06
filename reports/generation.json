@@ -1,0 +1,62 @@
+{
+ "greedy": {
+  "abstention_rate": 0.4,
+  "refused_by_gate": 15,
+  "refused_by_filter": 7,
+  "fallbacks": 0,
+  "mean_answer_words": 11.575757575757576,
+  "mean_citations": 1.5151515151515151,
+  "multi_paper_rate": 0.30303030303030304,
+  "cited_silver_paper": 0.6666666666666666
+ },
+ "beam": {
+  "abstention_rate": 0.4,
+  "refused_by_gate": 15,
+  "refused_by_filter": 7,
+  "fallbacks": 0,
+  "mean_answer_words": 9.151515151515152,
+  "mean_citations": 1.6363636363636365,
+  "multi_paper_rate": 0.42424242424242425,
+  "cited_silver_paper": 0.696969696969697
+ },
+ "top_k": {
+  "abstention_rate": 0.5272727272727272,
+  "refused_by_gate": 15,
+  "refused_by_filter": 14,
+  "fallbacks": 0,
+  "mean_answer_words": 11.884615384615385,
+  "mean_citations": 1.6153846153846154,
+  "multi_paper_rate": 0.4230769230769231,
+  "cited_silver_paper": 0.6538461538461539
+ },
+ "nucleus": {
+  "abstention_rate": 0.509090909090909,
+  "refused_by_gate": 15,
+  "refused_by_filter": 13,
+  "fallbacks": 0,
+  "mean_answer_words": 13.0,
+  "mean_citations": 1.5555555555555556,
+  "multi_paper_rate": 0.4074074074074074,
+  "cited_silver_paper": 0.6296296296296297
+ },
+ "synth": {
+  "abstention_rate": 0.2727272727272727,
+  "refused_by_gate": 15,
+  "refused_by_filter": 0,
+  "fallbacks": 0,
+  "mean_answer_words": 83.725,
+  "mean_citations": 2.475,
+  "multi_paper_rate": 0.775,
+  "cited_silver_paper": 0.775
+ },
+ "rank": {
+  "abstention_rate": 0.38181818181818183,
+  "refused_by_gate": 15,
+  "refused_by_filter": 6,
+  "fallbacks": 0,
+  "mean_answer_words": 55.61764705882353,
+  "mean_citations": 1.8235294117647058,
+  "multi_paper_rate": 0.5,
+  "cited_silver_paper": 0.7352941176470589
+ }
+}
