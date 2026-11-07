@@ -1,0 +1,56 @@
+[
+ {
+  "kind": "numpy",
+  "size": 20242,
+  "data": "real",
+  "build_s": 0.0,
+  "p50_ms": 0.838,
+  "p95_ms": 1.057,
+  "recall@10": 1.0
+ },
+ {
+  "kind": "faiss",
+  "size": 20242,
+  "data": "real",
+  "build_s": 0.51,
+  "p50_ms": 3.693,
+  "p95_ms": 8.385,
+  "recall@10": 1.0
+ },
+ {
+  "kind": "numpy",
+  "size": 20242,
+  "data": "random",
+  "build_s": 0.0,
+  "p50_ms": 0.74,
+  "p95_ms": 1.002,
+  "recall@10": 1.0
+ },
+ {
+  "kind": "faiss",
+  "size": 20242,
+  "data": "random",
+  "build_s": 0.72,
+  "p50_ms": 5.983,
+  "p95_ms": 9.897,
+  "recall@10": 0.996
+ },
+ {
+  "kind": "numpy",
+  "size": 200000,
+  "data": "random",
+  "build_s": 0.0,
+  "p50_ms": 6.699,
+  "p95_ms": 7.839,
+  "recall@10": 1.0
+ },
+ {
+  "kind": "faiss",
+  "size": 200000,
+  "data": "random",
+  "build_s": 19.03,
+  "p50_ms": 11.799,
+  "p95_ms": 17.792,
+  "recall@10": 0.5805
+ }
+]
