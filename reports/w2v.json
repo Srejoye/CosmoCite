@@ -1,0 +1,44 @@
+{
+ "microgravity": [
+  "weightlessness",
+  "spaceflight",
+  "gravities",
+  "weightless",
+  "gravitational"
+ ],
+ "radiation": [
+  "irradiation",
+  "gcr",
+  "rays",
+  "exposures",
+  "hze"
+ ],
+ "bone": [
+  "cancellous",
+  "strut",
+  "skeletal",
+  "cartilage",
+  "osteopenia"
+ ],
+ "muscle": [
+  "muscles",
+  "atrophy",
+  "muscular",
+  "skeletal",
+  "antigravity"
+ ],
+ "mice": [
+  "rats",
+  "animals",
+  "female",
+  "male",
+  "ob"
+ ],
+ "plants": [
+  "roots",
+  "seedlings",
+  "wheat",
+  "arabidopsis",
+  "thaliana"
+ ]
+}

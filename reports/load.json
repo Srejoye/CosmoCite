@@ -1,0 +1,32 @@
+[
+ {
+  "people": 1,
+  "questions": 5,
+  "served": 5,
+  "busy": 0,
+  "errors": 0,
+  "p50_s": 1.13,
+  "p95_s": 1.2,
+  "per_second": 0.88
+ },
+ {
+  "people": 8,
+  "questions": 24,
+  "served": 24,
+  "busy": 0,
+  "errors": 0,
+  "p50_s": 11.71,
+  "p95_s": 12.14,
+  "per_second": 0.67
+ },
+ {
+  "people": 20,
+  "questions": 26,
+  "served": 9,
+  "busy": 17,
+  "errors": 0,
+  "p50_s": 8.19,
+  "p95_s": 12.1,
+  "per_second": 0.68
+ }
+]
