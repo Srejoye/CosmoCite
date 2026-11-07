@@ -1,0 +1,362 @@
+[
+ {
+  "question": "Which Arabidopsis mutants show partial tolerance to magnesium sulfate in Mars-like soils?",
+  "answerable": true,
+  "source_paper": "0362",
+  "split": "test"
+ },
+ {
+  "question": "What shared plant response do analyses of Arabidopsis spaceflight transcriptomes highlight?",
+  "answerable": true,
+  "source_paper": "0175",
+  "split": "test"
+ },
+ {
+  "question": "Which peptide-attached graphene quantum dots block SARS-CoV-2 Delta spike binding to ACE2?",
+  "answerable": true,
+  "source_paper": "0440",
+  "split": "test"
+ },
+ {
+  "question": "What does treatment with a soluble BMPR1A fusion protein do to bone?",
+  "answerable": true,
+  "source_paper": "0058",
+  "split": "test"
+ },
+ {
+  "question": "Which anti-inflammatory compounds have antiviral activity against African swine fever virus?",
+  "answerable": true,
+  "source_paper": "0089",
+  "split": "test"
+ },
+ {
+  "question": "How does loss of caveolae affect lymphatic transport in mice?",
+  "answerable": true,
+  "source_paper": "0112",
+  "split": "dev"
+ },
+ {
+  "question": "How does hypergravity affect lactation in rat dams?",
+  "answerable": true,
+  "source_paper": "0406",
+  "split": "dev"
+ },
+ {
+  "question": "What do REDUCED CHLOROPLAST COVERAGE genes do in Arabidopsis?",
+  "answerable": true,
+  "source_paper": "0072",
+  "split": "test"
+ },
+ {
+  "question": "How does cytoskeletal configuration affect mechanical signal sensing in mesenchymal stem cells?",
+  "answerable": true,
+  "source_paper": "0243",
+  "split": "test"
+ },
+ {
+  "question": "How can the pore size of the MscL channel be modulated?",
+  "answerable": true,
+  "source_paper": "0044",
+  "split": "dev"
+ },
+ {
+  "question": "What does NASA GeneLab provide for exploring space omics data?",
+  "answerable": true,
+  "source_paper": "0103",
+  "split": "dev"
+ },
+ {
+  "question": "How does spaceflight affect neuronal morphology?",
+  "answerable": true,
+  "source_paper": "0480",
+  "split": "dev"
+ },
+ {
+  "question": "What does spaceflight do to cancellous bone in the proximal femur of growing rats?",
+  "answerable": true,
+  "source_paper": "0464",
+  "split": "dev"
+ },
+ {
+  "question": "Does spaceflight affect macrophage differentiation from mouse bone marrow cells?",
+  "answerable": true,
+  "source_paper": "0086",
+  "split": "test"
+ },
+ {
+  "question": "How does radiation-induced oxidative stress affect cultured neural stem cells?",
+  "answerable": true,
+  "source_paper": "0271",
+  "split": "dev"
+ },
+ {
+  "question": "What neuronal effects of spaceflight did spatially resolved multiomics reveal in mice?",
+  "answerable": true,
+  "source_paper": "0107",
+  "split": "dev"
+ },
+ {
+  "question": "How does the astronaut microbiome change during long-term space missions?",
+  "answerable": true,
+  "source_paper": "0470",
+  "split": "dev"
+ },
+ {
+  "question": "What role does the unfolded protein response play in plants?",
+  "answerable": true,
+  "source_paper": "0073",
+  "split": "test"
+ },
+ {
+  "question": "How do light and gravity signals interact in plant development?",
+  "answerable": true,
+  "source_paper": "0252",
+  "split": "test"
+ },
+ {
+  "question": "Which genes matter for resistance to HZE-induced mutagenesis in Arabidopsis?",
+  "answerable": true,
+  "source_paper": "0078",
+  "split": "dev"
+ },
+ {
+  "question": "Do marine sulfated glycans inhibit SARS-CoV-2 strains?",
+  "answerable": true,
+  "source_paper": "0442",
+  "split": "test"
+ },
+ {
+  "question": "What does RNAseq reveal about gene expression in cortical bone after disuse?",
+  "answerable": true,
+  "source_paper": "0059",
+  "split": "dev"
+ },
+ {
+  "question": "What root phototropic response appears in Arabidopsis under reduced gravity?",
+  "answerable": true,
+  "source_paper": "0250",
+  "split": "dev"
+ },
+ {
+  "question": "How do spaceflight and hind limb unloading change the electrical impedance of muscle?",
+  "answerable": true,
+  "source_paper": "0056",
+  "split": "test"
+ },
+ {
+  "question": "How do symbiont cues shape brush-border microarchitecture?",
+  "answerable": true,
+  "source_paper": "0153",
+  "split": "test"
+ },
+ {
+  "question": "Is thermogenesis increased in mice housed aboard the International Space Station?",
+  "answerable": true,
+  "source_paper": "0465",
+  "split": "dev"
+ },
+ {
+  "question": "What metabolic changes occur in space-flown oligodendrocyte progenitors?",
+  "answerable": true,
+  "source_paper": "0137",
+  "split": "dev"
+ },
+ {
+  "question": "How does fifteen days of microgravity affect the calvaria of mice?",
+  "answerable": true,
+  "source_paper": "0206",
+  "split": "test"
+ },
+ {
+  "question": "How does skeletal unloading affect vasodilation in the rat femur principal nutrient artery?",
+  "answerable": true,
+  "source_paper": "0121",
+  "split": "test"
+ },
+ {
+  "question": "How do muscle impairments progress during partial weight-bearing in rats?",
+  "answerable": true,
+  "source_paper": "0415",
+  "split": "dev"
+ },
+ {
+  "question": "How does microgravity affect limb regeneration in axolotls?",
+  "answerable": false,
+  "absent_term": "axolotl",
+  "split": "test"
+ },
+ {
+  "question": "Does spaceflight impair foraging behaviour in honeybees?",
+  "answerable": false,
+  "absent_term": "honeybee",
+  "split": "dev"
+ },
+ {
+  "question": "How does radiation exposure affect kangaroo reproduction?",
+  "answerable": false,
+  "absent_term": "kangaroo",
+  "split": "test"
+ },
+ {
+  "question": "Does microgravity change burrowing behaviour in earthworms?",
+  "answerable": false,
+  "absent_term": "earthworm",
+  "split": "test"
+ },
+ {
+  "question": "Does long-duration spaceflight cause tinnitus in astronauts?",
+  "answerable": false,
+  "absent_term": "tinnitus",
+  "split": "test"
+ },
+ {
+  "question": "How does dengue virus replicate under simulated microgravity?",
+  "answerable": false,
+  "absent_term": "dengue",
+  "split": "test"
+ },
+ {
+  "question": "How does bamboo grow under simulated microgravity?",
+  "answerable": false,
+  "absent_term": "bamboo",
+  "split": "test"
+ },
+ {
+  "question": "Do orchids flower normally on the International Space Station?",
+  "answerable": false,
+  "absent_term": "orchid",
+  "split": "dev"
+ },
+ {
+  "question": "How does weightlessness affect adhesion in geckos?",
+  "answerable": false,
+  "absent_term": "gecko",
+  "split": "test"
+ },
+ {
+  "question": "Does planaria regeneration change after spaceflight?",
+  "answerable": false,
+  "absent_term": "planaria",
+  "split": "dev"
+ },
+ {
+  "question": "Does spaceflight change the composition of breast milk?",
+  "answerable": false,
+  "absent_term": "breast milk",
+  "split": "test"
+ },
+ {
+  "question": "How does microgravity affect vocal cord function in astronauts?",
+  "answerable": false,
+  "absent_term": "vocal cord",
+  "split": "dev"
+ },
+ {
+  "question": "Why do astronauts get more hiccups in microgravity?",
+  "answerable": false,
+  "absent_term": "hiccup",
+  "split": "dev"
+ },
+ {
+  "question": "Does microgravity reduce snoring in crew members?",
+  "answerable": false,
+  "absent_term": "snoring",
+  "split": "test"
+ },
+ {
+  "question": "Does spaceflight increase dandruff in astronauts?",
+  "answerable": false,
+  "absent_term": "dandruff",
+  "split": "dev"
+ },
+ {
+  "question": "How does hindlimb unloading compare with natural inactivity in sloths?",
+  "answerable": false,
+  "absent_term": "sloth",
+  "split": "dev"
+ },
+ {
+  "question": "How does radiation exposure affect koala gut bacteria?",
+  "answerable": false,
+  "absent_term": "koala",
+  "split": "dev"
+ },
+ {
+  "question": "How does microgravity affect swimming orientation in goldfish?",
+  "answerable": false,
+  "absent_term": "goldfish",
+  "split": "dev"
+ },
+ {
+  "question": "How does microgravity affect arm regeneration in starfish?",
+  "answerable": false,
+  "absent_term": "starfish",
+  "split": "test"
+ },
+ {
+  "question": "How does spaceflight affect moulting in lobsters?",
+  "answerable": false,
+  "absent_term": "lobster",
+  "split": "dev"
+ },
+ {
+  "question": "How does microgravity affect flight control in dragonflies?",
+  "answerable": false,
+  "absent_term": "dragonfly",
+  "split": "dev"
+ },
+ {
+  "question": "Can saffron be grown under simulated Martian conditions?",
+  "answerable": false,
+  "absent_term": "saffron",
+  "split": "test"
+ },
+ {
+  "question": "How does spaceflight affect pineapple fruit development?",
+  "answerable": false,
+  "absent_term": "pineapple",
+  "split": "test"
+ },
+ {
+  "question": "Does microgravity change avocado seed germination?",
+  "answerable": false,
+  "absent_term": "avocado",
+  "split": "dev"
+ },
+ {
+  "question": "How do mangrove seedlings respond to simulated microgravity?",
+  "answerable": false,
+  "absent_term": "mangrove",
+  "split": "test"
+ },
+ {
+  "question": "How does cosmic radiation affect wombat bone?",
+  "answerable": false,
+  "absent_term": "wombat",
+  "split": "test"
+ },
+ {
+  "question": "Does microgravity change barnacle settlement?",
+  "answerable": false,
+  "absent_term": "barnacle",
+  "split": "dev"
+ },
+ {
+  "question": "How does radiation exposure affect walrus blubber?",
+  "answerable": false,
+  "absent_term": "walrus",
+  "split": "dev"
+ },
+ {
+  "question": "How does spaceflight affect ostrich embryo development?",
+  "answerable": false,
+  "absent_term": "ostrich",
+  "split": "test"
+ },
+ {
+  "question": "How does microgravity affect tusk growth in narwhals?",
+  "answerable": false,
+  "absent_term": "narwhal",
+  "split": "dev"
+ }
+]

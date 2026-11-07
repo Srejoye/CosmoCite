@@ -1,0 +1,284 @@
+[
+ {
+  "qid": "q044",
+  "question": "How does microgravity affect liver in cultured cells?",
+  "judged": [
+   "0003",
+   "0004",
+   "0025",
+   "0057",
+   "0223",
+   "0356",
+   "0373",
+   "0527",
+   "0545",
+   "0546",
+   "0547",
+   "0572"
+  ],
+  "relevant": [
+   "0057",
+   "0527",
+   "0003"
+  ],
+  "label_source": "claude-opus-5-5, blind to retrieval mode, from titles and abstracts"
+ },
+ {
+  "qid": "q009",
+  "question": "How does radiation exposure affect cardiovascular in humans?",
+  "judged": [
+   "0020",
+   "0022",
+   "0029",
+   "0060",
+   "0182",
+   "0276",
+   "0385",
+   "0450",
+   "0541",
+   "0546",
+   "0551"
+  ],
+  "relevant": [
+   "0020",
+   "0060",
+   "0276",
+   "0541"
+  ],
+  "label_source": "claude-opus-5-5, blind to retrieval mode, from titles and abstracts"
+ },
+ {
+  "qid": "q001",
+  "question": "How does microgravity affect eye in humans?",
+  "judged": [
+   "0100",
+   "0126",
+   "0128",
+   "0133",
+   "0135",
+   "0190",
+   "0216",
+   "0385",
+   "0462",
+   "0470",
+   "0541",
+   "0571"
+  ],
+  "relevant": [
+   "0126",
+   "0128",
+   "0571",
+   "0541"
+  ],
+  "label_source": "claude-opus-5-5, blind to retrieval mode, from titles and abstracts"
+ },
+ {
+  "qid": "q052",
+  "question": "How does microgravity affect bone in cultured cells?",
+  "judged": [
+   "0002",
+   "0003",
+   "0004",
+   "0206",
+   "0224",
+   "0226",
+   "0426",
+   "0545",
+   "0546",
+   "0565"
+  ],
+  "relevant": [
+   "0002",
+   "0206",
+   "0426",
+   "0565",
+   "0003"
+  ],
+  "label_source": "claude-opus-5-5, blind to retrieval mode, from titles and abstracts"
+ },
+ {
+  "qid": "q020",
+  "question": "How does microgravity affect eye in mice?",
+  "judged": [
+   "0040",
+   "0126",
+   "0128",
+   "0133",
+   "0190",
+   "0202",
+   "0216",
+   "0277",
+   "0279",
+   "0527",
+   "0541",
+   "0571"
+  ],
+  "relevant": [
+   "0126",
+   "0128",
+   "0277",
+   "0279",
+   "0571",
+   "0541"
+  ],
+  "label_source": "claude-opus-5-5, blind to retrieval mode, from titles and abstracts"
+ },
+ {
+  "qid": "q018",
+  "question": "How does microgravity affect kidney in cultured cells?",
+  "judged": [
+   "0003",
+   "0004",
+   "0025",
+   "0223",
+   "0252",
+   "0300",
+   "0337",
+   "0373",
+   "0546",
+   "0572"
+  ],
+  "relevant": [
+   "0300"
+  ],
+  "label_source": "claude-opus-5-5, blind to retrieval mode, from titles and abstracts"
+ },
+ {
+  "qid": "q017",
+  "question": "How does microgravity affect cardiovascular in humans?",
+  "judged": [
+   "0002",
+   "0003",
+   "0033",
+   "0105",
+   "0216",
+   "0228",
+   "0385",
+   "0387",
+   "0427",
+   "0462",
+   "0470",
+   "0545",
+   "0567",
+   "0569"
+  ],
+  "relevant": [
+   "0033",
+   "0228",
+   "0387",
+   "0427",
+   "0567",
+   "0569",
+   "0003"
+  ],
+  "label_source": "claude-opus-5-5, blind to retrieval mode, from titles and abstracts"
+ },
+ {
+  "qid": "q011",
+  "question": "How does radiation exposure affect eye in humans?",
+  "judged": [
+   "0178",
+   "0182",
+   "0190",
+   "0278",
+   "0279",
+   "0280",
+   "0283",
+   "0450",
+   "0470",
+   "0540",
+   "0541",
+   "0546"
+  ],
+  "relevant": [
+   "0280",
+   "0541"
+  ],
+  "label_source": "claude-opus-5-5, blind to retrieval mode, from titles and abstracts"
+ },
+ {
+  "qid": "q006",
+  "question": "How does radiation exposure affect immune in cultured cells?",
+  "judged": [
+   "0181",
+   "0182",
+   "0374",
+   "0382",
+   "0385",
+   "0541",
+   "0546",
+   "0547",
+   "0566"
+  ],
+  "relevant": [
+   "0374",
+   "0382",
+   "0547"
+  ],
+  "label_source": "claude-opus-5-5, blind to retrieval mode, from titles and abstracts"
+ },
+ {
+  "qid": "q047",
+  "question": "How does microgravity affect skin in humans?",
+  "judged": [
+   "0002",
+   "0003",
+   "0033",
+   "0081",
+   "0100",
+   "0127",
+   "0206",
+   "0216",
+   "0291",
+   "0299",
+   "0422",
+   "0462",
+   "0470",
+   "0527"
+  ],
+  "relevant": [
+   "0291",
+   "0299"
+  ],
+  "label_source": "claude-opus-5-5, blind to retrieval mode, from titles and abstracts"
+ },
+ {
+  "qid": "q038",
+  "question": "How does radiation exposure affect liver in humans?",
+  "judged": [
+   "0027",
+   "0030",
+   "0057",
+   "0138",
+   "0178",
+   "0182",
+   "0276",
+   "0301",
+   "0450",
+   "0470",
+   "0541",
+   "0546"
+  ],
+  "relevant": [],
+  "label_source": "claude-opus-5-5, blind to retrieval mode, from titles and abstracts"
+ },
+ {
+  "qid": "q005",
+  "question": "How does radiation exposure affect skin in cultured cells?",
+  "judged": [
+   "0007",
+   "0181",
+   "0182",
+   "0197",
+   "0271",
+   "0385",
+   "0395",
+   "0444",
+   "0541",
+   "0546",
+   "0547"
+  ],
+  "relevant": [],
+  "label_source": "claude-opus-5-5, blind to retrieval mode, from titles and abstracts"
+ }
+]

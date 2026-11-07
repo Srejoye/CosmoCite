@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Notebooks / OS
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Raw fetched HTML (refetch with backend/fetch.py)
+data/raw_html/
+
+# Large regenerable files
+data/processed/chunk_emb.npy
+data/processed/w2v.model
+data/processed/chunk.faiss
+
+# Model weights (too big for GitHub, share via Drive / Hugging Face)
+models/
+# Test and tool caches
+.pytest_cache/
+pytest-cache-files-*/
+
+#others
+screenshot.png

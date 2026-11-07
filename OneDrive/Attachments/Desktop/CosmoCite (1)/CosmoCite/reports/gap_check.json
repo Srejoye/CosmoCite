@@ -1,0 +1,172 @@
+[
+ {
+  "paper_id": "0115",
+  "title": "Aging and Estrogen Status: A Possible Endothelium-Dependent Vascular Coupling Mechanism in Bone Remodeling",
+  "entities": {
+   "organism": [
+    "other"
+   ],
+   "stressor": [],
+   "tissue": [
+    "bone",
+    "cardiovascular"
+   ],
+   "outcome": [
+    "decrease",
+    "increase"
+   ]
+  },
+  "abstract": "Bone loss with aging and menopause may be linked to vascular endothelial dysfunction. The purpose of the study was to determine whether putative modifications in endothelium-dependent vasodilation of the principal nutrient artery (PNA) of the femur are associated with changes in trabecular bone volume (BV/TV) with altered estrogen status in young (6 mon) and old (24 mon) female Fischer-344 rats. Animals were divided into 6 groups: 1) young intact, 2) old intact, 3) young ovariectomized (OVX), 4) old OVX, 5) young OVX plus estrogen replacement (OVX+E2), and 6) old OVX+E2. PNA endothelium-depend"
+ },
+ {
+  "paper_id": "0026",
+  "title": "Muscle atrophy phenotype gene expression during spaceflight is linked to a metabolic crosstalk in both the liver and the muscle in mice",
+  "entities": {
+   "organism": [
+    "human",
+    "mouse"
+   ],
+   "stressor": [
+    "microgravity"
+   ],
+   "tissue": [
+    "liver",
+    "muscle"
+   ],
+   "outcome": [
+    "decrease",
+    "expression",
+    "increase"
+   ]
+  },
+  "abstract": "Human expansion in space is hampered by the physiological risks of spaceflight. The muscle and the liver are among the most affected tissues during spaceflight and their relationships in response to space exposure have never been studied. We compared the transcriptome response of liver and quadriceps from mice on NASA RR1 mission, after 37 days of exposure to spaceflight using GSEA, ORA, and sparse partial least square-differential analysis. We found that lipid metabolism is the most affected biological process between the two organs. A specific gene cluster expression pattern in the liver str"
+ },
+ {
+  "paper_id": "0282",
+  "title": "A multi-omics longitudinal study of the murine retinal response to chronic low-dose irradiation and simulated microgravity",
+  "entities": {
+   "organism": [
+    "cells",
+    "mouse"
+   ],
+   "stressor": [
+    "microgravity",
+    "other",
+    "radiation"
+   ],
+   "tissue": [
+    "brain",
+    "eye"
+   ],
+   "outcome": [
+    "expression",
+    "growth",
+    "increase"
+   ]
+  },
+  "abstract": "The space environment includes unique hazards like radiation and microgravity which can adversely affect biological systems. We assessed a multi-omics NASA GeneLab dataset where mice were hindlimb unloaded and/or gamma irradiated for 21 days followed by retinal analysis at 7 days, 1 month or 4 months post-exposure. We compared time-matched epigenomic and transcriptomic retinal profiles resulting in a total of 4178 differentially methylated loci or regions, and 457 differentially expressed genes. Highest correlation in methylation difference was seen across different conditions at the same time"
+ },
+ {
+  "paper_id": "0251",
+  "title": "Recent transcriptomic studies to elucidate the plant adaptive response to spaceflight and to simulated space environments",
+  "entities": {
+   "organism": [
+    "cells",
+    "human",
+    "plant"
+   ],
+   "stressor": [
+    "microgravity",
+    "radiation"
+   ],
+   "tissue": [
+    "plant tissue"
+   ],
+   "outcome": [
+    "damage",
+    "expression",
+    "growth"
+   ]
+  },
+  "abstract": "Discovering the adaptation mechanisms of plants to the space environment is essential for supporting human space exploration. Transcriptomic analyses allow the identification of adaptation response pathways by detecting changes in gene expression at the global genome level caused by the main factors of the space environment, namely altered gravity and cosmic radiation. This article reviews transcriptomic studies carried out from plants grown in spaceflights and in different ground-based microgravity simulators. Despite differences in plant growth conditions, these studies have shown that cell "
+ },
+ {
+  "paper_id": "0229",
+  "title": "Fish Oil Increases Specialized Pro-resolving Lipid Mediators in PAD (The OMEGA-PAD II Trial)",
+  "entities": {
+   "organism": [
+    "human"
+   ],
+   "stressor": [],
+   "tissue": [
+    "cardiovascular"
+   ],
+   "outcome": [
+    "damage",
+    "decrease",
+    "increase"
+   ]
+  },
+  "abstract": "N-3 polyunsaturated fatty acid (PUFA) supplementation has been associated with reduced mortality and inflammation in patients with cardiovascular disease. There are limited data on the effects of n-3 PUFA supplementation in patients with peripheral artery disease (PAD). The OMEGA-PAD II trial was a double-blinded, randomized, placebo-controlled trial to assess the effect of 3 mo of high-dose oral n-3 PUFA supplementation on inflammation, endothelial function, and walking ability in patients with PAD. Twenty-four patients with claudication received 4.4 g/d of fish oil or placebo for 3 mo. Outco"
+ },
+ {
+  "paper_id": "0143",
+  "title": "Data for characterization of SALK_084889, a T-DNA insertion line of Arabidopsis thaliana",
+  "entities": {
+   "organism": [
+    "plant"
+   ],
+   "stressor": [],
+   "tissue": [
+    "plant tissue"
+   ],
+   "outcome": [
+    "decrease",
+    "growth"
+   ]
+  },
+  "abstract": "In this article we report the identification of T-DNA (transfer DNA) insertion sites within two different gene regions in the genome of an Arabidopsis mutant line, SALK_084889. The T-DNA positions are in the 3\u2032 UTR (untranslated region) of DREB2A (Dehydration-responsive element-binding protein 2A) ( AT5G05410 ) and promoter of LOX1 (Lipoxygenase 1) ( AT1G55020 ) as determined by DNA-PCR and sanger sequencing. The expression levels of DREB2A and LOX1 were also analyzed using quantitative realtime PCR (qPCR) in SALK_084889 and wild type Arabidopsis (Col, Columbia). Further, the comparison of dro"
+ },
+ {
+  "paper_id": "0105",
+  "title": "A New Era for Space Life Science: International Standards for Space Omics Processing",
+  "entities": {
+   "organism": [
+    "human",
+    "other",
+    "plant"
+   ],
+   "stressor": [
+    "microgravity",
+    "other",
+    "radiation"
+   ],
+   "tissue": [],
+   "outcome": [
+    "increase"
+   ]
+  },
+  "abstract": "Space agencies have announced plans for human missions to the Moon to prepare for Mars. However, the space environment presents stressors that include radiation, microgravity, and isolation. Understanding how these factors affect biology is crucial for safe and effective crewed space exploration. There is a need to develop countermeasures, to adapt plants and microbes for nutrient sources and bioregenerative life support, and to limit pathogen infection. Scientists across the world are conducting space omics experiments on model organisms and, more recently, on humans. Optimal extraction of ac"
+ },
+ {
+  "paper_id": "0559",
+  "title": "Competitive Growth Assay of Mutagenized Chlamydomonas reinhardtii Compatible With the International Space Station Veggie Plant Growth Chamber",
+  "entities": {
+   "organism": [
+    "cells",
+    "plant"
+   ],
+   "stressor": [
+    "microgravity"
+   ],
+   "tissue": [],
+   "outcome": [
+    "damage",
+    "decrease",
+    "growth",
+    "increase"
+   ]
+  },
+  "abstract": "A biological life support system for spaceflight would capture carbon dioxide waste produced by living and working in space to generate useful organic compounds. Photosynthesis is the primary mechanism to fix carbon into organic molecules. Microalgae are highly efficient at converting light, water, and carbon dioxide into biomass, particularly under limiting, artificial light conditions that are a necessity in space photosynthetic production. Although there is great promise in developing algae for chemical or food production in space, most spaceflight algae growth studies have been conducted o"
+ }
+]

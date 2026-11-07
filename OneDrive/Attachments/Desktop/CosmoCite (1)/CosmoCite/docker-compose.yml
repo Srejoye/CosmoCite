@@ -1,0 +1,18 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    environment:
+      OLLAMA_HOST_URL: http://ollama:11434
+
+  # Optional: only the "Local model" engine uses this. Start it with --profile local-model.
+  ollama:
+    image: ollama/ollama
+    profiles: [local-model]
+    volumes:
+      - ollama:/root/.ollama
+
+volumes:
+  ollama:
