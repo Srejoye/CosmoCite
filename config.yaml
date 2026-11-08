@@ -1,0 +1,13 @@
+seed: 42
+paths:
+  raw_html: data/raw_html
+  processed: data/processed
+  eval: data/eval
+split: {train: 0.8, val: 0.1, test: 0.1}   # split by paper, never by chunk
+chunk: {max_words: 180}
+embed_model: sentence-transformers/all-MiniLM-L6-v2
+gen_model: google/flan-t5-base
+rerank_model: cross-encoder/ms-marco-MiniLM-L-6-v2
+retrieval: {top_k: 5, ctx_k: 3, pool_k: 50, evidence_threshold: 4.1, evidence_k: 20, sentence_threshold: 3.0, closest_floor: 0.0, index: numpy, candidate_k: 1000, default_mode: rerank, claim_threshold: null}   # cross-encoder logit, tuned on the dev half of data/eval/abstention.json
+llm: {host: "http://localhost:11434", model: "qwen2.5:0.5b", timeout: 120, max_tokens: 220, num_ctx: 2048, keep_alive: "30m"}
+api: {max_concurrent: 1, queue_seconds: 15, max_waiting: 8, origins: ["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:4173"]}

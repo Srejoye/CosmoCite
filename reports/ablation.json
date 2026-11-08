@@ -1,0 +1,26 @@
+[
+ {
+  "stopwords_removed": false,
+  "stemmed": false,
+  "recall@10": 0.1486598435501522,
+  "mrr": 0.4878240740740741
+ },
+ {
+  "stopwords_removed": false,
+  "stemmed": true,
+  "recall@10": 0.1975692058392733,
+  "mrr": 0.5925661375661375
+ },
+ {
+  "stopwords_removed": true,
+  "stemmed": false,
+  "recall@10": 0.1883739695062858,
+  "mrr": 0.5157341269841269
+ },
+ {
+  "stopwords_removed": true,
+  "stemmed": true,
+  "recall@10": 0.2180017721595035,
+  "mrr": 0.5952645502645503
+ }
+]
