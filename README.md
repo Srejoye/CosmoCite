@@ -43,7 +43,7 @@ Unlike a conventional chatbot, CosmoCite retrieves evidence from the research co
 |---|---|---|
 | Section classification | TF-IDF + Logistic Regression | BiLSTM / GRU + attention · SciBERT |
 | NER | Rules and dictionary | BioBERT |
-| Titles and summaries | Key-sentence extraction | LSTM attention · T5 |
+| Titles and summaries | Key-sentence extraction | LSTM attention · T5 (implemented, not evaluated) |
 | Retrieval | BM25 | Dense · Hybrid · Cross-encoder |
 | Question answering | FLAN-T5 | Ollama · Evidence-checked sentence ranking |
 
@@ -186,12 +186,14 @@ All experiments use a shared paper-level split, configured in `config.yaml`.
 |---|---|---:|
 | Section classification | SciBERT macro-F1 | **0.691** |
 | NER | Rule-based entity F1 | **0.650** |
-| Retrieval | Dense nDCG@5 (judged set) | **0.817** |
-| Retrieval | Reranked MRR (known-item set) | **0.903** |
+| Retrieval | Dense nDCG@5 (12 judged questions, labels by Claude) | **0.817** |
+| Retrieval | Reranked MRR (30 known-item questions) | **0.903** |
 | Seq2seq | Luong attention ROUGE-L | **0.154** |
-| Answer relevance | On-topic sentences after filtering | **51/62 (82%)** |
+| Answer relevance | On-topic sentences after filtering (judged by Claude, an estimate) | **51/62 (82%)** |
 | Source faithfulness | Sampled sentences matching source passages | **60/60** |
 | Natural questions | Answered by default engine | **28/30** |
+
+The relevance labels (answer relevance and the judged retrieval set) were assigned by an AI model, Claude, not by human annotators, and the sentence filter was developed on the same questions used to measure it. Treat those figures as rough estimates; see [`docs/report.md`](docs/report.md).
 
 Detailed metrics, comparisons, and plots are available in `reports/`.
 
