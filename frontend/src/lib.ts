@@ -133,7 +133,7 @@ export function headlines(r: Record<string, any>) {
     out.push({ value: `${all - stopped} of ${all}`, label: "Broad questions answered" });
   }
   const c = r.relevance_check?.after;
-  if (c) out.push({ value: `About ${Math.round((c.on_topic / c.sentences) * 100)}%`, label: "Quotes on topic" });
+  if (c) out.push({ value: `About ${Math.round((c.on_topic / c.sentences) * 100)}%`, label: "Quotes on topic (judged by Claude, an estimate)" });
   return out;
 }
 

@@ -1,6 +1,7 @@
 """Turns label files into spreadsheets for people, and reads their answers back.
 Run: python backend/labels.py export    writes data/eval/labeling/*.csv
      python backend/labels.py import    reads answers into faithfulness.jsonl and qrels.json
+     python backend/labels.py export_heldout | import_heldout    the same for the held-out sentences (heldout.csv)
 
 Answers are yes or no. Blanks mean "not done yet", and anything else stops the import, so nothing is guessed."""
 import csv, json, sys
@@ -10,6 +11,7 @@ EVAL = ROOT / CFG["paths"]["eval"]
 SHEETS = EVAL / "labeling"
 FAITH_CSV = SHEETS / "faithfulness.csv"
 RELEVANCE_CSV = SHEETS / "relevance.csv"
+HELD_CSV = SHEETS / "heldout.csv"
 ANSWERS = {"yes": True, "y": True, "no": False, "n": False, "": None}
 ABSTRACT_CHARS = 600
 
@@ -113,5 +115,21 @@ def load():
     print(f"{done} of {len(rows)} sentences labeled; {len(merged) - len(qrels)} questions added, {len(pool) - len(merged)} left")
 
 
+def export_heldout():
+    SHEETS.mkdir(exist_ok=True)
+    if has_answers(HELD_CSV, "supported", "on_topic"):
+        return print("The sheet already has answers, so nothing was overwritten.")
+    sheet = faith_sheet(read_jsonl(EVAL / "heldout.jsonl"))
+    write_csv(HELD_CSV, sheet)
+    print(len(sheet), "sentences to label in", HELD_CSV)
+
+
+def load_heldout():
+    path = EVAL / "heldout.jsonl"
+    rows = apply_faith(read_jsonl(path), read_csv(HELD_CSV))
+    write_jsonl(path, rows)
+    print(f"{sum(x['on_topic'] is not None for x in rows)} of {len(rows)} sentences labeled")
+
+
 if __name__ == "__main__":
-    {"export": export, "import": load}[sys.argv[1] if len(sys.argv) > 1 else "export"]()
+    {"export": export, "import": load, "export_heldout": export_heldout, "import_heldout": load_heldout}[sys.argv[1] if len(sys.argv) > 1 else "export"]()

@@ -35,14 +35,14 @@ Its central objective is to make scientific information easier to retrieve, veri
 
 **Source faithfulness.** The default sentence-ranking engine selects sentences directly from retrieved passages. All 60 sampled output sentences were found word for word in their corresponding passages, confirming that the selected quotations exist in their cited sources.
 
-**Topical relevance.** Relevance was assessed using a consistent criterion: whether a sentence reports an effect of the requested stressor on the requested tissue in the requested organism. The assessment results are recorded in `reports/relevance_check.json`.
+**Topical relevance.** Relevance was assessed using a consistent criterion: whether a sentence reports an effect of the requested stressor on the requested tissue in the requested organism. The labels were assigned by an AI model (Claude Opus 5.5), which was also used to build the filter; they are not human labels. The assessment results are recorded in `reports/relevance_check.json`.
 
 | Evaluation stage | Sentences assessed | On-topic sentences |
 |---|---:|---:|
 | Before filtering | 60 | 38 (63%) |
 | After filtering and organism preference | 62 | 51 (82%) |
 
-The results show an increase in the proportion of selected sentences matching the requested topic after applying sentence filtering and organism preference.
+The results show an increase in the proportion of selected sentences matching the requested topic after applying sentence filtering and organism preference. Two cautions apply: the before and after samples differ, and the filter was developed on these same questions, so the figures are a rough estimate rather than a held-out measurement.
 
 The filtering process was also evaluated on naturally phrased questions. Initial testing on 16 natural questions informed improvements to the matching rules, including recognition of expressions such as "visual" and "in-flight".
 
@@ -59,7 +59,9 @@ The retrieval experiments compare BM25, dense retrieval, hybrid retrieval, and c
 | Judged questions (12) | nDCG@5 | 0.252 | 0.817 | 0.623 | 0.554 |
 | Known-item questions (30) | MRR | 0.891 | 0.811 | 0.848 | 0.903 |
 
-Dense retrieval achieves the highest nDCG@5 on the judged retrieval questions, while reranking achieves the highest MRR on the known-item set. The current system retains reranking as its default retrieval strategy.
+Dense retrieval achieves the highest nDCG@5 on the judged retrieval questions, while reranking achieves the highest MRR on the known-item set. The relevance labels for the 12 judged questions were assigned by an AI model (Claude Opus 5.5) from paper titles and abstracts, blind to the retrieval mode; they are not human labels, and 12 questions is a small sample.
+
+The current system retains reranking as its default retrieval strategy even though dense retrieval scores higher on the judged set. The evidence check and the sentence ranking both rely on cross-encoder scores, and the refusal threshold of 4.1 is calibrated on them, so reranking keeps one scoring scale across the whole answering pipeline. The gap on the judged set is a known trade-off of this choice.
 
 ### 3.3 Model experiments
 
@@ -69,7 +71,7 @@ The project also includes experiments involving scientific text classification, 
 |---|---|---|---|
 | Section classifier (macro-F1) | TF-IDF: 0.654 | BiLSTM: 0.616 | SciBERT: 0.691 |
 | NER (entity F1) | Rules: 0.650 | n/a | BioBERT: 0.626 |
-| Seq2seq (ROUGE-L) | n/a | Bahdanau: 0.127, Luong: 0.154 | T5 results not available in `reports/` |
+| Seq2seq (ROUGE-L) | n/a | Bahdanau: 0.127, Luong: 0.154 | T5: code in `seq2seq.py`, not evaluated |
 
 These experiments document the project's exploration of different machine-learning approaches for scientific text processing.
 
@@ -100,7 +102,7 @@ Exact NumPy search performed better than FAISS in the reported experiments, so i
 
 At 200,000 vectors, the experiment used random data, while real scientific embeddings were available for the 20,242-passage collection. These measurements provide a basis for comparing indexing approaches at different collection sizes.
 
-The 500,000-vector experiment was also attempted as part of the scaling evaluation. These measurements cover vector-search performance rather than the complete question-answering pipeline. A full answer takes approximately one second in the reported setup, with most of the time spent in cross-encoder scoring.
+The benchmark script also lists a 500,000-vector size, but that run did not complete and no result was recorded. These measurements cover vector-search performance rather than the complete question-answering pipeline. A full answer takes approximately one second in the reported setup, with most of the time spent in cross-encoder scoring.
 
 **Additional engineering decisions.**
 

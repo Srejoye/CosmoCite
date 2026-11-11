@@ -80,3 +80,28 @@ def test_faith_sample_keeps_a_sheet_people_have_filled_in(tmp_path, monkeypatch)
     monkeypatch.setattr(evaluate, "FAITH", tmp_path / "missing.jsonl")
     monkeypatch.setattr(evaluate, "faith_rows", lambda *a, **k: (_ for _ in ()).throw(AssertionError("resampled")))
     evaluate.faith_sample()
+
+
+def test_kappa_is_one_for_identical_labels_and_zero_at_chance():
+    assert evaluate.kappa([True, False, True, False], [True, False, True, False]) == pytest.approx(1.0)
+    assert evaluate.kappa([True, True, False, False], [True, False, True, False]) == pytest.approx(0.0)
+
+
+def test_kappa_handles_everyone_saying_yes():
+    assert evaluate.kappa([True, True], [True, True]) == 1.0
+
+
+def test_heldout_summary_compares_a_person_with_a_model():
+    rows = [{"q": "Q", "sentence": "a", "on_topic": True}, {"q": "Q", "sentence": "b", "on_topic": False},
+            {"q": "Q", "sentence": "c", "on_topic": None}]
+    ai = [{"q": "Q", "sentence": "a", "on_topic": True}, {"q": "Q", "sentence": "b", "on_topic": True},
+          {"q": "Q", "sentence": "c", "on_topic": True}]
+    out = evaluate.heldout_summary(rows, ai)
+    assert out["human"]["sentences"] == 2 and out["human"]["on_topic"] == 0.5
+    assert out["model"]["sentences"] == 3 and out["model"]["on_topic"] == 1.0
+    assert out["agreement"]["sentences"] == 2 and out["agreement"]["same_label"] == 0.5
+
+
+def test_heldout_summary_before_anyone_has_labeled():
+    out = evaluate.heldout_summary([{"q": "Q", "sentence": "a", "on_topic": None}], [])
+    assert out == {"human": None, "model": None, "agreement": None}

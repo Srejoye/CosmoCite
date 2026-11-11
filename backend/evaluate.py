@@ -1,5 +1,5 @@
 """All evaluations -> reports/*.json.
-Run: python backend/evaluate.py [questions|retrieval|pool|ablation|w2v|answers|calibrate|abstention|faith_sample|faithfulness|gaps]
+Run: python backend/evaluate.py [questions|retrieval|pool|ablation|w2v|answers|calibrate|abstention|faith_sample|faithfulness|gaps|heldout|heldout_report]
 (default: all). 'questions' writes the SILVER set: its gold ids are the rule tagger's output, so retrieval scores on it
 measure agreement with the tagger. retrieval_known and retrieval_judged do not depend on the tagger."""
 import json, random, re, sys
@@ -14,6 +14,8 @@ QF = EVAL / "questions.json"
 ABST = EVAL / "abstention.json"       # answerable (source paper known) + unanswerable (key term absent from corpus)
 QRELS = EVAL / "qrels.json"           # pooled relevance judgments
 FAITH = EVAL / "faithfulness.jsonl"   # sentence-level support labels
+HELD = EVAL / "heldout.jsonl"         # answer sentences for questions written after the sentence filter was frozen
+HELD_AI = EVAL / "heldout_ai.json"    # a model's on-topic labels for the same sentences, kept out of the labeling sheet
 ORG_P = {"mouse": "mice", "human": "humans", "plant": "plants", "cells": "cultured cells"}
 STR_P = {"microgravity": "microgravity", "radiation": "radiation exposure"}
 
@@ -65,6 +67,9 @@ def retrieval():
     known = [{"question": q["question"], "gold_paper_ids": [q["source_paper"]]} for q in load_abst() if q["answerable"]]
     dump("retrieval_known", [{k: v for k, v in r.evaluate(known, m).items() if k in ("mode", "recall@10", "mrr")}
                              for m in MODES])
+    a, b = (np.array([x["mrr"] for x in r.per_query(known, m)]) for m in ("rerank", "bm25"))
+    dump("retrieval_known_delta", {"metric": "mrr", "a": "rerank", "b": "bm25", "n": len(known),
+                                   "mean_delta": float((a - b).mean()), "ci95": list(bootstrap_ci(a - b))})
     if QRELS.exists():  # judged to pool depth 5, so scored at k=5; unjudged papers count as not relevant
         qrels = [q for q in json.loads(QRELS.read_text(encoding="utf-8")) if q["relevant"]]
         judged = [{"question": q["question"], "gold_paper_ids": q["relevant"]} for q in qrels]
@@ -214,6 +219,53 @@ def faithfulness():
     dump("faithfulness", out)
 
 
+def kappa(a, b):
+    """Cohen's kappa for two yes/no label lists: agreement beyond what chance alone would give."""
+    a, b = np.asarray(a, dtype=float), np.asarray(b, dtype=float)
+    seen, chance = float((a == b).mean()), float(a.mean() * b.mean() + (1 - a.mean()) * (1 - b.mean()))
+    return 1.0 if chance == 1 else (seen - chance) / (1 - chance)
+
+
+def rate(labels):
+    return {"sentences": len(labels), "on_topic": float(np.mean(labels)), "ci95": list(bootstrap_ci([float(x) for x in labels]))}
+
+
+def heldout_summary(rows, ai):
+    """rows: labeling rows, on_topic filled by a person or None. ai: [{q, sentence, on_topic}] from a model."""
+    model = {(x["q"], x["sentence"]): x["on_topic"] for x in ai}
+    person = [x for x in rows if x["on_topic"] is not None]
+    both = [(x["on_topic"], model[x["q"], x["sentence"]]) for x in person if (x["q"], x["sentence"]) in model]
+    return {"human": rate([x["on_topic"] for x in person]) if person else None,
+            "model": rate([model[k] for k in ((x["q"], x["sentence"]) for x in rows) if k in model]) if model else None,
+            "agreement": {"sentences": len(both), "same_label": float(np.mean([h == m for h, m in both])),
+                          "kappa": kappa(*zip(*both))} if both else None}
+
+
+def heldout():
+    """Answers questions the sentence filter was never developed on, and lists every answer sentence for a person to label."""
+    from labels import HELD_CSV, has_answers
+    from retrieval import Retriever
+    from generate import answer
+    if has_answers(HELD_CSV, "supported", "on_topic") or (HELD.exists() and any(x["on_topic"] is not None for x in read_jsonl(HELD))):
+        return print("the held-out sentences already have labels - keeping them")
+    r, qs = Retriever(), json.loads((EVAL / "heldout.json").read_text(encoding="utf-8"))
+    runs = [answer(q, "greedy", r, engine="rank") for q in qs]
+    samples = [{"decoding": "rank", "q": q, "answer": o["answer"], "citations": o["citations"]} for q, o in zip(qs, runs) if o["sufficient"]]
+    text = {c["chunk_id"]: c["text"] for c in read_jsonl(PROC / "chunks.jsonl")}
+    rows = [{**x, "passage": text[x["chunk_id"]]} for x in faith_rows(samples, None, CFG["seed"])]
+    write_jsonl(HELD, rows)
+    dump("heldout", {"questions": len(qs), "answered": len(samples), "refused_by_gate": sum(o["reason"] == "gate" for o in runs),
+                     "refused_by_filter": sum(o["reason"] == "filter" for o in runs), "sentences": len(rows)})
+
+
+def heldout_report():
+    """On-topic rate on the held-out sentences, from a person's labels and a model's, and how often the two agree."""
+    path = REP / "heldout.json"
+    ai = json.loads(HELD_AI.read_text(encoding="utf-8")) if HELD_AI.exists() else {"label_source": None, "labels": []}
+    dump("heldout", {**json.loads(path.read_text(encoding="utf-8")), "model_label_source": ai["label_source"],
+                     **heldout_summary(read_jsonl(HELD), ai["labels"])})
+
+
 def gaps():  # sample for hand-check of the gap matrix
     papers = json.loads((PROC / "papers.json").read_text())
     abst = {d["paper_id"]: d["abstract"] for d in read_jsonl(PROC / "corpus.jsonl")}
@@ -291,4 +343,4 @@ if __name__ == "__main__":
          "answers": answers, "answers_synth": lambda: answers(only="synth"), "answers_rank": lambda: answers(only="rank"),
  "calibrate": calibrate, "abstention": abstention, "natural": natural, "faith_sample": faith_sample,
          "faithfulness": faithfulness,
-         "gaps": gaps}[a]()
+         "gaps": gaps, "heldout": heldout, "heldout_report": heldout_report}[a]()
