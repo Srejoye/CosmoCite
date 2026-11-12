@@ -2,7 +2,7 @@
 
 > A space-biology research engine that reads 572 scientific papers, answers questions with cited evidence, and refuses to answer when the evidence is insufficient.
 
-🔗 **Built with:** Python · FastAPI · PyTorch · Hugging Face Transformers · React · TypeScript
+🔗 **[Live Demo](https://cosmocite.onrender.com/)** &nbsp;|&nbsp; Built with Python · FastAPI · PyTorch · Hugging Face Transformers · React · TypeScript
 
 ---
 
